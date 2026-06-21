@@ -1,0 +1,73 @@
+name: Update sea temps & weather
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours (UTC)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "config/**"
+      - "site/**"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write   # commit refreshed data/
+  pages: write      # deploy dashboard
+  id-token: write   # required by deploy-pages
+
+concurrency:
+  group: sea-temps-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          CMEMS_USERNAME: ${{ secrets.CMEMS_USERNAME }}
+          CMEMS_PASSWORD: ${{ secrets.CMEMS_PASSWORD }}
+        run: python -m src.main
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "sea-temps-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: refresh sea temps & weather [skip ci]"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

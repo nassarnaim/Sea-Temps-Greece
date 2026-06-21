@@ -1,0 +1,528 @@
+{
+  "generated_at": "2026-06-21T06:39:51Z",
+  "island_count": 9,
+  "islands": [
+    {
+      "name": "Spetses",
+      "slug": "spetses",
+      "region": "aegean",
+      "lat": 37.263,
+      "lon": 23.158,
+      "updated_at": "2026-06-21T06:39:46Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.263&longitude=23.158&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    },
+    {
+      "name": "Serifos",
+      "slug": "serifos",
+      "region": "aegean",
+      "lat": 37.15,
+      "lon": 24.5,
+      "updated_at": "2026-06-21T06:39:47Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.15&longitude=24.5&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    },
+    {
+      "name": "Milos",
+      "slug": "milos",
+      "region": "aegean",
+      "lat": 36.74,
+      "lon": 24.43,
+      "updated_at": "2026-06-21T06:39:48Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=36.74&longitude=24.43&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    },
+    {
+      "name": "Santorini",
+      "slug": "santorini",
+      "region": "aegean",
+      "lat": 36.3932,
+      "lon": 25.4615,
+      "updated_at": "2026-06-21T06:39:48Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=36.3932&longitude=25.4615&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    },
+    {
+      "name": "Rhodes",
+      "slug": "rhodes",
+      "region": "aegean",
+      "lat": 36.4349,
+      "lon": 28.2176,
+      "updated_at": "2026-06-21T06:39:49Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=36.4349&longitude=28.2176&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    },
+    {
+      "name": "Paros",
+      "slug": "paros",
+      "region": "aegean",
+      "lat": 37.0853,
+      "lon": 25.1487,
+      "updated_at": "2026-06-21T06:39:49Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.0853&longitude=25.1487&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    },
+    {
+      "name": "Kefalonia",
+      "slug": "kefalonia",
+      "region": "ionian",
+      "lat": 38.175,
+      "lon": 20.565,
+      "updated_at": "2026-06-21T06:39:50Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=38.175&longitude=20.565&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    },
+    {
+      "name": "Corfu",
+      "slug": "corfu",
+      "region": "ionian",
+      "lat": 39.6243,
+      "lon": 19.9217,
+      "updated_at": "2026-06-21T06:39:50Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=39.6243&longitude=19.9217&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    },
+    {
+      "name": "Zakynthos",
+      "slug": "zakynthos",
+      "region": "ionian",
+      "lat": 37.787,
+      "lon": 20.899,
+      "updated_at": "2026-06-21T06:39:50Z",
+      "sst": {
+        "value_c": null,
+        "source": null,
+        "time": null
+      },
+      "conditions": {
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": null,
+        "note": null
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.787&longitude=20.899&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+        },
+        {
+          "name": "cmems",
+          "ok": false,
+          "message": "disabled (not configured)"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+        },
+        {
+          "name": "ceamed",
+          "ok": false,
+          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+        }
+      ]
+    }
+  ],
+  "run_sources": [
+    {
+      "name": "openmeteo",
+      "ok": false,
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.263&longitude=23.158&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+    },
+    {
+      "name": "cmems",
+      "ok": false,
+      "message": "disabled (not configured)"
+    },
+    {
+      "name": "poseidon",
+      "ok": false,
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+    },
+    {
+      "name": "hnms",
+      "ok": false,
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+    },
+    {
+      "name": "ceamed",
+      "ok": false,
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+    }
+  ]
+}

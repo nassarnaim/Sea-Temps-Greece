@@ -1,0 +1,67 @@
+{
+  "name": "Santorini",
+  "slug": "santorini",
+  "region": "aegean",
+  "lat": 36.3932,
+  "lon": 25.4615,
+  "updated_at": "2026-06-21T06:39:48Z",
+  "sst": {
+    "value_c": null,
+    "source": null,
+    "time": null
+  },
+  "forecast": {
+    "source": null,
+    "time": [],
+    "air_temp_c": [],
+    "wind_speed_kn": [],
+    "wind_gust_kn": [],
+    "wind_dir_deg": [],
+    "weather_code": [],
+    "precip_mm": [],
+    "wave_height_m": [],
+    "wave_period_s": [],
+    "wave_dir_deg": [],
+    "sea_temp_c": []
+  },
+  "advisories": [],
+  "climate": {
+    "source": null,
+    "anomaly_c": null,
+    "reference": null,
+    "period": null,
+    "note": null
+  },
+  "sources": [
+    {
+      "name": "openmeteo",
+      "ok": false,
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=36.3932&longitude=25.4615&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7",
+      "fetched_at": "2026-06-21T06:39:48Z"
+    },
+    {
+      "name": "cmems",
+      "ok": false,
+      "message": "disabled (not configured)",
+      "fetched_at": "2026-06-21T06:39:48Z"
+    },
+    {
+      "name": "poseidon",
+      "ok": false,
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast",
+      "fetched_at": "2026-06-21T06:39:49Z"
+    },
+    {
+      "name": "hnms",
+      "ok": false,
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine",
+      "fetched_at": "2026-06-21T06:39:49Z"
+    },
+    {
+      "name": "ceamed",
+      "ok": false,
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html",
+      "fetched_at": "2026-06-21T06:39:49Z"
+    }
+  ]
+}
