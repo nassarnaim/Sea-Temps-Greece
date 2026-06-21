@@ -53,9 +53,10 @@ class CmemsSource(Source):
 
     def __init__(self):
         self._user, self._pwd = cmems_credentials()
-        # Candidates to try, env override first; the first that opens is cached.
+        # Candidates to try, env override first.
         self._candidates = ([_ENV_DATASET_ID] if _ENV_DATASET_ID else []) + CANDIDATE_DATASET_IDS
-        self._dataset_id: str | None = None  # resolved working id (cached across islands)
+        self._dataset_id: str | None = None  # resolved working id
+        self._resolution_failed = False      # set once if no candidate opens
 
     def is_enabled(self) -> bool:
         return bool(self._user and self._pwd) and _toolbox_available()
@@ -73,20 +74,30 @@ class CmemsSource(Source):
             maximum_latitude=island.sea_lat + 0.1,
         )
 
-    def fetch(self, island: Island, report: IslandReport) -> str:
-        # Use the already-resolved dataset id, else probe candidates in order.
-        ids_to_try = [self._dataset_id] if self._dataset_id else self._candidates
-        ds = None
+    def _resolve(self, island: Island):
+        """Probe candidate dataset ids ONCE per run; cache the winner or give up.
+
+        Returns the opened dataset for ``island`` using the resolved id, or
+        raises if resolution has already failed (so we never re-probe all
+        candidates for every island — that made the run pathologically slow).
+        """
+        if self._dataset_id:
+            return self._open(self._dataset_id, island)
+        if self._resolution_failed:
+            raise RuntimeError("CMEMS dataset id unresolved (skipped after first failure)")
         errors = []
-        for dataset_id in ids_to_try:
+        for dataset_id in self._candidates:
             try:
                 ds = self._open(dataset_id, island)
                 self._dataset_id = dataset_id  # cache the first that works
-                break
+                return ds
             except Exception as exc:  # noqa: BLE001 - try the next candidate
                 errors.append(f"{dataset_id}: {type(exc).__name__}")
-        if ds is None:
-            raise RuntimeError("no CMEMS dataset id resolved (" + "; ".join(errors) + ")")
+        self._resolution_failed = True  # don't retry candidates for later islands
+        raise RuntimeError("no CMEMS dataset id resolved (" + "; ".join(errors) + ")")
+
+    def fetch(self, island: Island, report: IslandReport) -> str:
+        ds = self._resolve(island)
 
         var = next((v for v in SST_VARS if v in ds.variables), None)
         if var is None:

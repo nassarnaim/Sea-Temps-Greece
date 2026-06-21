@@ -19,17 +19,18 @@ from .base import Source
 
 WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
 MARINE_URL = "https://marine-api.open-meteo.com/v1/marine"
-TIMEOUT = 45  # generous: the public API is occasionally slow
+# (connect, read) timeouts — bounded so retries can't compound into a long run.
+TIMEOUT = (10, 30)
 
 
 def _build_session() -> requests.Session:
     """Session that retries transient failures (incl. read timeouts) with backoff."""
     session = requests.Session()
     retry = Retry(
-        total=4,
-        connect=3,
-        read=3,
-        backoff_factor=1.5,  # 0s, 1.5s, 3s, 6s …
+        total=3,
+        connect=2,
+        read=2,
+        backoff_factor=1.0,  # 0s, 1s, 2s
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=("GET",),
         raise_on_status=False,
