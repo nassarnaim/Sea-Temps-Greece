@@ -4,7 +4,7 @@
   "region": "ionian",
   "lat": 38.175,
   "lon": 20.565,
-  "updated_at": "2026-06-21T07:43:42Z",
+  "updated_at": "2026-06-21T07:54:59Z",
   "sst": {
     "value_c": 24.5,
     "source": "openmeteo",
@@ -1887,46 +1887,46 @@
     {
       "source": "poseidon",
       "text": "POSEIDON Ionian Sea forecast available — see official bulletin.",
-      "time": "2026-06-21T07:43:43Z"
+      "time": "2026-06-21T07:55:00Z"
     }
   ],
   "climate": {
-    "source": null,
+    "source": "ceamed",
     "anomaly_c": null,
-    "reference": null,
-    "period": null,
-    "note": null
+    "reference": "Mediterranean basin-wide SST trend (CEAMet)",
+    "period": "monthly",
+    "note": "Basin-wide monthly context, not a per-island live value."
   },
   "sources": [
     {
       "name": "openmeteo",
       "ok": true,
       "message": "168h forecast, sst=24.5",
-      "fetched_at": "2026-06-21T07:43:42Z"
+      "fetched_at": "2026-06-21T07:54:59Z"
     },
     {
       "name": "cmems",
       "ok": false,
-      "message": "disabled (not configured)",
-      "fetched_at": "2026-06-21T07:43:42Z"
+      "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)",
+      "fetched_at": "2026-06-21T07:54:59Z"
     },
     {
       "name": "poseidon",
       "ok": true,
       "message": "Ionian forecast reachable",
-      "fetched_at": "2026-06-21T07:43:43Z"
+      "fetched_at": "2026-06-21T07:55:00Z"
     },
     {
       "name": "hnms",
       "ok": false,
       "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))",
-      "fetched_at": "2026-06-21T07:43:44Z"
+      "fetched_at": "2026-06-21T07:55:00Z"
     },
     {
       "name": "ceamed",
-      "ok": false,
-      "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7f5e210c6610>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))",
-      "fetched_at": "2026-06-21T07:44:14Z"
+      "ok": true,
+      "message": "reference attached (no value parsed)",
+      "fetched_at": "2026-06-21T07:55:00Z"
     }
   ]
 }
