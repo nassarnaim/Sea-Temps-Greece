@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+*.nc
+.DS_Store
+# Generated mirror of data/ for the dashboard (rebuilt every run)
+site/data/

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sea-Temps Greece — SST &amp; Weather for the Greek Islands</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>🌊 Sea-Temps Greece</h1>
+      <p class="tagline">Real-time sea surface temperature, wind &amp; weather for nine Greek islands. Auto-updated every 6 hours.</p>
+      <p class="updated" id="updated">Loading…</p>
+      <div class="source-strip" id="source-strip"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="cards" class="cards" aria-live="polite"></section>
+
+    <section id="detail" class="detail hidden">
+      <button class="close" id="detail-close" aria-label="Close">×</button>
+      <h2 id="detail-title"></h2>
+      <p id="detail-meta" class="detail-meta"></p>
+      <div class="charts">
+        <div class="chart-box"><canvas id="chart-temp"></canvas></div>
+        <div class="chart-box"><canvas id="chart-wind"></canvas></div>
+        <div class="chart-box"><canvas id="chart-wave"></canvas></div>
+      </div>
+      <div id="detail-advisories" class="advisories"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Sources: Copernicus Marine (CMEMS) · Open-Meteo · POSEIDON/HCMR · HNMS/EMY · CEAMed.
+        SST is satellite/model analysis; forecasts refresh every 6h.</p>
+      <p class="muted">CEAMed is a basin-wide monthly trend (climate context), not a per-island live feed.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

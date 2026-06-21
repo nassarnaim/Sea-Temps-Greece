@@ -1,0 +1,12 @@
+# Core pipeline (always needed)
+requests>=2.31
+PyYAML>=6.0
+
+# CMEMS authoritative SST (optional — backbone works without these).
+# Install for the full pipeline / CI:
+copernicusmarine>=2.0
+xarray>=2024.1
+netCDF4>=1.6
+
+# Dev / tests
+pytest>=8.0

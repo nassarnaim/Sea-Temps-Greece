@@ -1,0 +1,62 @@
+# Nine Greek islands monitored by Sea-Temps-Greece.
+#
+# Each island has two coordinate pairs:
+#   land:  the island itself (used for the land/air weather forecast)
+#   sea:   an OFFSHORE point in open water near the island, used for marine
+#          grids (CMEMS / Open-Meteo Marine) so the nearest grid cell is not
+#          land-masked.
+#
+# region drives which POSEIDON sub-model / basin applies:
+#   aegean  -> Aegean Sea
+#   ionian  -> Ionian Sea
+defaults:
+  forecast_days: 7
+settings:
+  # rolling history window kept per island (days) to bound repo size
+  history_days: 30
+islands:
+  - name: Spetses
+    slug: spetses
+    region: aegean
+    land: { lat: 37.2630, lon: 23.1580 }
+    sea:  { lat: 37.2200, lon: 23.1700 }
+  - name: Serifos
+    slug: serifos
+    region: aegean
+    land: { lat: 37.1500, lon: 24.5000 }
+    sea:  { lat: 37.1300, lon: 24.4200 }
+  - name: Milos
+    slug: milos
+    region: aegean
+    land: { lat: 36.7400, lon: 24.4300 }
+    sea:  { lat: 36.6700, lon: 24.4000 }
+  - name: Santorini
+    slug: santorini
+    region: aegean
+    land: { lat: 36.3932, lon: 25.4615 }
+    sea:  { lat: 36.3500, lon: 25.3800 }
+  - name: Rhodes
+    slug: rhodes
+    region: aegean
+    land: { lat: 36.4349, lon: 28.2176 }
+    sea:  { lat: 36.3500, lon: 28.0500 }
+  - name: Paros
+    slug: paros
+    region: aegean
+    land: { lat: 37.0853, lon: 25.1487 }
+    sea:  { lat: 37.0500, lon: 25.0700 }
+  - name: Kefalonia
+    slug: kefalonia
+    region: ionian
+    land: { lat: 38.1750, lon: 20.5650 }
+    sea:  { lat: 38.1500, lon: 20.4000 }
+  - name: Corfu
+    slug: corfu
+    region: ionian
+    land: { lat: 39.6243, lon: 19.9217 }
+    sea:  { lat: 39.6000, lon: 19.7800 }
+  - name: Zakynthos
+    slug: zakynthos
+    region: ionian
+    land: { lat: 37.7870, lon: 20.8990 }
+    sea:  { lat: 37.7200, lon: 20.7500 }
