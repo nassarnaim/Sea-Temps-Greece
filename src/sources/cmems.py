@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import math
 import os
+import threading
 
 from ..config import Island, cmems_credentials
 from ..model import IslandReport, SstReading
@@ -35,6 +36,11 @@ SST_VARS = ("analysed_sst", "sea_surface_temperature", "thetao", "sst")
 
 # Bounding box covering all nine islands (Ionian + Aegean) with margin.
 GREEK_BBOX = dict(min_lon=18.5, max_lon=29.5, min_lat=35.0, max_lat=40.5)
+
+# Hard time budget for opening+loading the CMEMS grid. Reading the Copernicus
+# store from CI can occasionally hang; if it exceeds this, we skip CMEMS for the
+# run and fall back to the Open-Meteo backbone so the pipeline never stalls.
+OPEN_TIMEOUT_S = float(os.environ.get("CMEMS_TIMEOUT", "180"))
 
 
 def _toolbox_available() -> bool:
@@ -78,33 +84,54 @@ class CmemsSource(Source):
             maximum_latitude=GREEK_BBOX["max_lat"],
         )
 
-    def _prepare_field(self, ds) -> None:
-        """Reduce an opened dataset to a single latest-time 2D SST grid in memory."""
+    def _open_and_prepare(self):
+        """Open the dataset and return (2D latest-time SST grid loaded in memory, time)."""
+        ds = self._open(self._dataset_id)
         var = next((v for v in SST_VARS if v in ds.variables), None)
         if var is None:
             raise ValueError(f"no SST variable in {self._dataset_id}: {list(ds.variables)}")
         da = ds[var]
+        field_time = None
         if "time" in da.dims:
-            self._field_time = str(da["time"].isel(time=-1).values)[:19] + "Z"
+            field_time = str(da["time"].isel(time=-1).values)[:19] + "Z"
             da = da.isel(time=-1)
         for level in ("depth", "elevation"):
             if level in da.dims:
                 da = da.isel({level: 0})
         # Pull the (small) Greek-box grid into memory once; sampling is then local.
-        self._field = da.load()
+        return da.load(), field_time
 
     def _ensure_field(self) -> None:
-        """Open the configured dataset and load the SST field ONCE per run."""
+        """Open + load the SST field ONCE per run, bounded by a hard timeout.
+
+        copernicusmarine reads can hang from CI, so run them in a daemon thread
+        we wait on for at most OPEN_TIMEOUT_S. If it overruns we abandon CMEMS
+        for the run (the daemon dies at process exit) and the backbone is used.
+        """
         if self._field is not None:
             return
         if self._resolution_failed:
             raise RuntimeError(f"CMEMS open previously failed for {self._dataset_id} (skipped)")
-        try:
-            ds = self._open(self._dataset_id)
-            self._prepare_field(ds)
-        except Exception:
-            self._resolution_failed = True  # don't retry for every island
-            raise
+
+        holder: dict = {}
+
+        def worker():
+            try:
+                holder["field"], holder["time"] = self._open_and_prepare()
+            except Exception as exc:  # noqa: BLE001 - surfaced to the main thread
+                holder["err"] = exc
+
+        t = threading.Thread(target=worker, name="cmems-open", daemon=True)
+        t.start()
+        t.join(OPEN_TIMEOUT_S)
+        if t.is_alive():
+            self._resolution_failed = True
+            raise TimeoutError(f"CMEMS open/load exceeded {OPEN_TIMEOUT_S:.0f}s; using backbone")
+        if "err" in holder:
+            self._resolution_failed = True
+            raise holder["err"]
+        # Assign only on success, in the main thread.
+        self._field, self._field_time = holder["field"], holder["time"]
 
     def fetch(self, island: Island, report: IslandReport) -> str:
         self._ensure_field()
