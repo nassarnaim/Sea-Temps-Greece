@@ -11,6 +11,7 @@ dashboard can fetch it locally and on GitHub Pages.
 from __future__ import annotations
 
 import json
+import math
 import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -19,9 +20,25 @@ from .config import DATA_DIR, SITE_DIR, Settings
 from .model import IslandReport, SourceStatus, utcnow_iso
 
 
+def _denan(obj):
+    """Replace NaN/Inf floats with None so output is always valid JSON.
+
+    `json.dumps` emits bare `NaN`/`Infinity` tokens that browsers' JSON.parse
+    rejects, which would break the dashboard. None -> null is always safe.
+    """
+    if isinstance(obj, float):
+        return None if (math.isnan(obj) or math.isinf(obj)) else obj
+    if isinstance(obj, dict):
+        return {k: _denan(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_denan(v) for v in obj]
+    return obj
+
+
 def _write_json(path: Path, payload) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    text = json.dumps(_denan(payload), indent=2, ensure_ascii=False, allow_nan=False)
+    path.write_text(text + "\n", encoding="utf-8")
 
 
 def _first(seq, default=None):

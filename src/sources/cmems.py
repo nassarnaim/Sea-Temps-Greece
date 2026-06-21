@@ -15,6 +15,7 @@ sample every island's nearest point locally.
 """
 from __future__ import annotations
 
+import math
 import os
 
 from ..config import Island, cmems_credentials
@@ -109,9 +110,18 @@ class CmemsSource(Source):
         self._ensure_field()
         lat_name = "latitude" if "latitude" in self._field.coords else "lat"
         lon_name = "longitude" if "longitude" in self._field.coords else "lon"
-        point = self._field.sel(
-            {lat_name: island.sea_lat, lon_name: island.sea_lon}, method="nearest"
+        latc = self._field[lat_name]
+        lonc = self._field[lon_name]
+
+        # Coastal points often snap to a land-masked cell (NaN). Average the
+        # valid (sea) cells within a small window so islands still get a value.
+        window = self._field.where(
+            (abs(latc - island.sea_lat) <= 0.25) & (abs(lonc - island.sea_lon) <= 0.25)
         )
-        value_c = round(_to_celsius(float(point.values)), 2)
+        value = float(window.mean(skipna=True).values)
+        if math.isnan(value):  # all-land window -> keep the backbone SST instead
+            raise ValueError(f"no valid CMEMS sea cell near {island.name}")
+
+        value_c = round(_to_celsius(value), 2)
         report.sst = SstReading(value_c=value_c, source=self.name, time=self._field_time)
         return f"sst={value_c}C from {self._dataset_id}"
