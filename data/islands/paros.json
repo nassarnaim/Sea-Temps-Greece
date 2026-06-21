@@ -4,9 +4,9 @@
   "region": "aegean",
   "lat": 37.0853,
   "lon": 25.1487,
-  "updated_at": "2026-06-21T08:13:00Z",
+  "updated_at": "2026-06-21T08:35:03Z",
   "sst": {
-    "value_c": NaN,
+    "value_c": 22.07,
     "source": "cmems",
     "time": "2026-06-21T00:00:00Z"
   },
@@ -1887,7 +1887,7 @@
     {
       "source": "poseidon",
       "text": "POSEIDON Aegean Sea forecast available — see official bulletin.",
-      "time": "2026-06-21T08:13:01Z"
+      "time": "2026-06-21T08:35:04Z"
     }
   ],
   "climate": {
@@ -1902,31 +1902,31 @@
       "name": "openmeteo",
       "ok": true,
       "message": "168h forecast, sst=22.2",
-      "fetched_at": "2026-06-21T08:13:00Z"
+      "fetched_at": "2026-06-21T08:35:03Z"
     },
     {
       "name": "cmems",
       "ok": true,
-      "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2",
-      "fetched_at": "2026-06-21T08:13:00Z"
+      "message": "sst=22.07C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2",
+      "fetched_at": "2026-06-21T08:35:03Z"
     },
     {
       "name": "poseidon",
       "ok": true,
       "message": "Aegean forecast reachable",
-      "fetched_at": "2026-06-21T08:13:01Z"
+      "fetched_at": "2026-06-21T08:35:04Z"
     },
     {
       "name": "hnms",
       "ok": false,
       "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))",
-      "fetched_at": "2026-06-21T08:13:01Z"
+      "fetched_at": "2026-06-21T08:35:05Z"
     },
     {
       "name": "ceamed",
       "ok": true,
       "message": "reference attached (no value parsed)",
-      "fetched_at": "2026-06-21T08:13:02Z"
+      "fetched_at": "2026-06-21T08:35:05Z"
     }
   ]
 }
