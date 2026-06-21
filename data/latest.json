@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T06:39:51Z",
+  "generated_at": "2026-06-21T06:59:55Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,52 +8,54 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-06-21T06:39:46Z",
+      "updated_at": "2026-06-21T06:55:58Z",
       "sst": {
-        "value_c": null,
-        "source": null,
-        "time": null
+        "value_c": 23.6,
+        "source": "openmeteo",
+        "time": "2026-06-21T00:00"
       },
       "conditions": {
-        "air_temp_c": null,
-        "wind_speed_kn": null,
-        "wind_gust_kn": null,
-        "wind_dir_deg": null,
-        "weather_code": null,
-        "wave_height_m": null,
-        "wave_period_s": null
+        "air_temp_c": 23.4,
+        "wind_speed_kn": 5.8,
+        "wind_gust_kn": 9.7,
+        "wind_dir_deg": 307.0,
+        "weather_code": 0,
+        "wave_height_m": 0.42,
+        "wave_period_s": 3.3
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.263&longitude=23.158&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "ok": true,
+          "message": "168h forecast, sst=23.6"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -63,7 +65,7 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-06-21T06:39:47Z",
+      "updated_at": "2026-06-21T06:56:07Z",
       "sst": {
         "value_c": null,
         "source": null,
@@ -80,35 +82,37 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.15&longitude=24.5&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "message": "ReadTimeout: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -118,7 +122,7 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-06-21T06:39:48Z",
+      "updated_at": "2026-06-21T06:56:43Z",
       "sst": {
         "value_c": null,
         "source": null,
@@ -135,35 +139,37 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=36.74&longitude=24.43&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "message": "ReadTimeout: HTTPSConnectionPool(host='marine-api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -173,52 +179,54 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-06-21T06:39:48Z",
+      "updated_at": "2026-06-21T06:57:19Z",
       "sst": {
-        "value_c": null,
-        "source": null,
-        "time": null
+        "value_c": 22.5,
+        "source": "openmeteo",
+        "time": "2026-06-21T00:00"
       },
       "conditions": {
-        "air_temp_c": null,
-        "wind_speed_kn": null,
-        "wind_gust_kn": null,
-        "wind_dir_deg": null,
-        "weather_code": null,
-        "wave_height_m": null,
-        "wave_period_s": null
+        "air_temp_c": 22.9,
+        "wind_speed_kn": 8.8,
+        "wind_gust_kn": 23.1,
+        "wind_dir_deg": 338.0,
+        "weather_code": 1,
+        "wave_height_m": 1.04,
+        "wave_period_s": 4.4
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=36.3932&longitude=25.4615&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "ok": true,
+          "message": "168h forecast, sst=22.5"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -228,7 +236,7 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-06-21T06:39:49Z",
+      "updated_at": "2026-06-21T06:57:26Z",
       "sst": {
         "value_c": null,
         "source": null,
@@ -245,35 +253,37 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=36.4349&longitude=28.2176&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "message": "ReadTimeout: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -283,7 +293,7 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-06-21T06:39:49Z",
+      "updated_at": "2026-06-21T06:58:02Z",
       "sst": {
         "value_c": null,
         "source": null,
@@ -300,35 +310,37 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.0853&longitude=25.1487&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "message": "ReadTimeout: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -338,52 +350,54 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-06-21T06:39:50Z",
+      "updated_at": "2026-06-21T06:58:37Z",
       "sst": {
-        "value_c": null,
-        "source": null,
-        "time": null
+        "value_c": 24.5,
+        "source": "openmeteo",
+        "time": "2026-06-21T00:00"
       },
       "conditions": {
-        "air_temp_c": null,
-        "wind_speed_kn": null,
-        "wind_gust_kn": null,
-        "wind_dir_deg": null,
-        "weather_code": null,
-        "wave_height_m": null,
-        "wave_period_s": null
+        "air_temp_c": 21.5,
+        "wind_speed_kn": 4.4,
+        "wind_gust_kn": 10.9,
+        "wind_dir_deg": 49.0,
+        "weather_code": 0,
+        "wave_height_m": 0.18,
+        "wave_period_s": 3.15
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=38.175&longitude=20.565&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "ok": true,
+          "message": "168h forecast, sst=24.5"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Ionian forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -393,7 +407,7 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-06-21T06:39:50Z",
+      "updated_at": "2026-06-21T06:58:44Z",
       "sst": {
         "value_c": null,
         "source": null,
@@ -410,35 +424,37 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=39.6243&longitude=19.9217&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "message": "ReadTimeout: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Ionian forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -448,7 +464,7 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-06-21T06:39:50Z",
+      "updated_at": "2026-06-21T06:59:20Z",
       "sst": {
         "value_c": null,
         "source": null,
@@ -465,35 +481,37 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.787&longitude=20.899&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "message": "ReadTimeout: HTTPSConnectionPool(host='marine-api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
         },
         {
           "name": "cmems",
           "ok": false,
-          "message": "disabled (not configured)"
+          "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+          "ok": true,
+          "message": "Ionian forecast reachable"
         },
         {
           "name": "hnms",
           "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     }
@@ -501,28 +519,28 @@
   "run_sources": [
     {
       "name": "openmeteo",
-      "ok": false,
-      "message": "HTTPError: 403 Client Error: Forbidden for url: https://api.open-meteo.com/v1/forecast?latitude=37.263&longitude=23.158&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+      "ok": true,
+      "message": "168h forecast, sst=23.6"
     },
     {
       "name": "cmems",
       "ok": false,
-      "message": "disabled (not configured)"
+      "message": "DatasetNotFound: cmems_obs-sst_med_phy_nrt_l4_P1D-m Please check that the dataset exists and the input datasetID is correct."
     },
     {
       "name": "poseidon",
-      "ok": false,
-      "message": "HTTPError: 403 Client Error: Forbidden for url: https://poseidon.hcmr.gr/services/forecast"
+      "ok": true,
+      "message": "Aegean forecast reachable"
     },
     {
       "name": "hnms",
       "ok": false,
-      "message": "HTTPError: 403 Client Error: Forbidden for url: https://emy.gr/en/marine"
+      "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
       "name": "ceamed",
-      "ok": false,
-      "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+      "ok": true,
+      "message": "reference attached (no value parsed)"
     }
   ]
 }
