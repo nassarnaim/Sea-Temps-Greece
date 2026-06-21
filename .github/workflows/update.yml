@@ -39,6 +39,7 @@ jobs:
         env:
           CMEMS_USERNAME: ${{ secrets.CMEMS_USERNAME }}
           CMEMS_PASSWORD: ${{ secrets.CMEMS_PASSWORD }}
+          CMEMS_DATASET_ID: ${{ secrets.CMEMS_DATASET_ID }}
         run: python -m src.main
 
       - name: Run tests
