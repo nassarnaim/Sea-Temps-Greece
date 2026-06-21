@@ -10,6 +10,8 @@ It also supplies a fallback SST when CMEMS is unavailable.
 from __future__ import annotations
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 from ..config import Island
 from ..model import ForecastSeries, IslandReport, SstReading
@@ -17,11 +19,32 @@ from .base import Source
 
 WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
 MARINE_URL = "https://marine-api.open-meteo.com/v1/marine"
-TIMEOUT = 30
+TIMEOUT = 45  # generous: the public API is occasionally slow
+
+
+def _build_session() -> requests.Session:
+    """Session that retries transient failures (incl. read timeouts) with backoff."""
+    session = requests.Session()
+    retry = Retry(
+        total=4,
+        connect=3,
+        read=3,
+        backoff_factor=1.5,  # 0s, 1.5s, 3s, 6s …
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=("GET",),
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+
+_SESSION = _build_session()
 
 
 def _get(url: str, params: dict) -> dict:
-    resp = requests.get(url, params=params, timeout=TIMEOUT)
+    resp = _SESSION.get(url, params=params, timeout=TIMEOUT)
     resp.raise_for_status()
     return resp.json()
 

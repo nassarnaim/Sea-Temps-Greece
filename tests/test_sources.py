@@ -55,10 +55,10 @@ def test_openmeteo_parses_and_aligns(monkeypatch):
         }
     }
 
-    def fake_get(url, params, timeout):
+    def fake_get(url, params=None, timeout=None):
         return FakeResp(weather if "marine" not in url else marine)
 
-    monkeypatch.setattr(openmeteo.requests, "get", fake_get)
+    monkeypatch.setattr(openmeteo._SESSION, "get", fake_get)
     report = _new_report()
     src = openmeteo.OpenMeteoSource(forecast_days=1)
     status = src.run(ISLAND, report)

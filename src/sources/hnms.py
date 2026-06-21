@@ -22,6 +22,9 @@ class HnmsSource(Source):
     label = "HNMS / EMY"
 
     def fetch(self, island: Island, report: IslandReport) -> str:
+        # TLS verification stays on. emy.gr currently serves an incomplete
+        # certificate chain, so this probe may fail — that's fine, HNMS is a
+        # best-effort advisory and the run continues without it.
         resp = requests.get(MARINE_PAGE, timeout=TIMEOUT, headers={"User-Agent": "Sea-Temps-Greece/1.0"})
         resp.raise_for_status()
         sea = "Aegean Sea" if island.region == "aegean" else "Ionian Sea"
