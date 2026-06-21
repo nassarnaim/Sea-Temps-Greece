@@ -4,11 +4,11 @@
   "region": "ionian",
   "lat": 38.175,
   "lon": 20.565,
-  "updated_at": "2026-06-21T07:54:59Z",
+  "updated_at": "2026-06-21T08:13:02Z",
   "sst": {
-    "value_c": 24.5,
-    "source": "openmeteo",
-    "time": "2026-06-21T00:00"
+    "value_c": 23.78,
+    "source": "cmems",
+    "time": "2026-06-21T00:00:00Z"
   },
   "forecast": {
     "source": "openmeteo",
@@ -1887,7 +1887,7 @@
     {
       "source": "poseidon",
       "text": "POSEIDON Ionian Sea forecast available — see official bulletin.",
-      "time": "2026-06-21T07:55:00Z"
+      "time": "2026-06-21T08:13:03Z"
     }
   ],
   "climate": {
@@ -1902,31 +1902,31 @@
       "name": "openmeteo",
       "ok": true,
       "message": "168h forecast, sst=24.5",
-      "fetched_at": "2026-06-21T07:54:59Z"
+      "fetched_at": "2026-06-21T08:13:02Z"
     },
     {
       "name": "cmems",
-      "ok": false,
-      "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)",
-      "fetched_at": "2026-06-21T07:54:59Z"
+      "ok": true,
+      "message": "sst=23.78C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2",
+      "fetched_at": "2026-06-21T08:13:02Z"
     },
     {
       "name": "poseidon",
       "ok": true,
       "message": "Ionian forecast reachable",
-      "fetched_at": "2026-06-21T07:55:00Z"
+      "fetched_at": "2026-06-21T08:13:03Z"
     },
     {
       "name": "hnms",
       "ok": false,
       "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))",
-      "fetched_at": "2026-06-21T07:55:00Z"
+      "fetched_at": "2026-06-21T08:13:03Z"
     },
     {
       "name": "ceamed",
       "ok": true,
       "message": "reference attached (no value parsed)",
-      "fetched_at": "2026-06-21T07:55:00Z"
+      "fetched_at": "2026-06-21T08:13:04Z"
     }
   ]
 }

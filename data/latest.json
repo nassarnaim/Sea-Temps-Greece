@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T07:55:04Z",
+  "generated_at": "2026-06-21T08:13:07Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,11 +8,11 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-06-21T07:54:44Z",
+      "updated_at": "2026-06-21T08:12:38Z",
       "sst": {
-        "value_c": 23.6,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": NaN,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 23.4,
@@ -39,8 +39,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "DatasetNotFound: pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 Please check that the dataset exists and the input datasetID is correct."
+          "ok": true,
+          "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -65,11 +65,11 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-06-21T07:54:50Z",
+      "updated_at": "2026-06-21T08:12:53Z",
       "sst": {
-        "value_c": 22.3,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": NaN,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 24.3,
@@ -96,8 +96,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)"
+          "ok": true,
+          "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -122,11 +122,11 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-06-21T07:54:51Z",
+      "updated_at": "2026-06-21T08:12:54Z",
       "sst": {
-        "value_c": 22.9,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": NaN,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 22.2,
@@ -153,8 +153,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)"
+          "ok": true,
+          "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -179,11 +179,11 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-06-21T07:54:53Z",
+      "updated_at": "2026-06-21T08:12:57Z",
       "sst": {
-        "value_c": 22.5,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": 22.99,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 22.9,
@@ -210,8 +210,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)"
+          "ok": true,
+          "message": "sst=22.99C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -236,11 +236,11 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-06-21T07:54:55Z",
+      "updated_at": "2026-06-21T08:12:58Z",
       "sst": {
-        "value_c": 25.1,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": NaN,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 23.0,
@@ -267,8 +267,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)"
+          "ok": true,
+          "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -293,11 +293,11 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-06-21T07:54:57Z",
+      "updated_at": "2026-06-21T08:13:00Z",
       "sst": {
-        "value_c": 22.2,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": NaN,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 22.5,
@@ -324,8 +324,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)"
+          "ok": true,
+          "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -350,11 +350,11 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-06-21T07:54:59Z",
+      "updated_at": "2026-06-21T08:13:02Z",
       "sst": {
-        "value_c": 24.5,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": 23.78,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 21.5,
@@ -381,8 +381,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)"
+          "ok": true,
+          "message": "sst=23.78C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -407,11 +407,11 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-06-21T07:55:00Z",
+      "updated_at": "2026-06-21T08:13:04Z",
       "sst": {
-        "value_c": 24.0,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": NaN,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 23.2,
@@ -438,8 +438,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)"
+          "ok": true,
+          "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -464,11 +464,11 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-06-21T07:55:02Z",
+      "updated_at": "2026-06-21T08:13:05Z",
       "sst": {
-        "value_c": 24.6,
-        "source": "openmeteo",
-        "time": "2026-06-21T00:00"
+        "value_c": NaN,
+        "source": "cmems",
+        "time": "2026-06-21T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 22.7,
@@ -495,8 +495,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 (skipped)"
+          "ok": true,
+          "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -524,8 +524,8 @@
     },
     {
       "name": "cmems",
-      "ok": false,
-      "message": "DatasetNotFound: pip install copernicusmarine && copernicusmarine login\ncopernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004 Please check that the dataset exists and the input datasetID is correct."
+      "ok": true,
+      "message": "sst=nanC from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
     },
     {
       "name": "poseidon",
