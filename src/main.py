@@ -59,7 +59,10 @@ def main() -> int:
     enabled = [s.name for s in sources if s.is_enabled()]
     print(f"Sources enabled: {', '.join(enabled)}")
     if "cmems" not in enabled:
-        print("Note: CMEMS not enabled (missing credentials or toolbox) — using backbone SST.")
+        print(
+            "Note: CMEMS not enabled (needs CMEMS_USERNAME/PASSWORD, CMEMS_DATASET_ID, "
+            "and the copernicusmarine toolbox) — using backbone SST."
+        )
 
     reports: list[IslandReport] = []
     for island in settings.islands:

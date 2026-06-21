@@ -52,13 +52,28 @@ CMEMS source reports itself disabled.
 
 ## Enabling authoritative CMEMS SST
 
+CMEMS needs **three** values; without all three it is skipped and the Open-Meteo
+backbone provides SST (the rest of the system is unaffected).
+
 1. Create a free account at <https://marine.copernicus.eu>.
 2. Add repository secrets **`CMEMS_USERNAME`** and **`CMEMS_PASSWORD`**
    (Settings → Secrets and variables → Actions).
-3. (Optional) Override the dataset with the `CMEMS_DATASET_ID` env var; confirm ids with
-   `copernicusmarine describe`.
+3. Add **`CMEMS_DATASET_ID`** — the exact catalogue id of the SST product you want.
+   Find it once with the toolbox and set it as a repo **variable** or **secret**:
 
-The workflow passes these to the pipeline; CMEMS SST then overrides the backbone value.
+   ```bash
+   pip install copernicusmarine
+   copernicusmarine login                 # uses your account
+   copernicusmarine describe --contains SST_MED_SST_L4_NRT_OBSERVATIONS_010_004
+   # copy the dataset_id (e.g. a Mediterranean L4 NRT SST daily product) and set
+   # it as CMEMS_DATASET_ID. The global L4 OSTIA NRT product also covers Greek waters.
+   ```
+
+The pipeline opens that dataset once for a Greek-wide box, loads the latest SST grid,
+and samples each island — CMEMS SST then overrides the backbone value.
+
+> Why explicit? CMEMS catalogue ids change and a wrong-but-existing id can be very slow
+> to open and stall the scheduled run, so the id is required rather than guessed.
 
 ## GitHub Pages setup
 
