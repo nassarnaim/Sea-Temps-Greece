@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T02:33:35Z",
+  "generated_at": "2026-08-01T08:16:17Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,17 +8,17 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-08-01T02:33:03Z",
+      "updated_at": "2026-08-01T08:15:45Z",
       "sst": {
-        "value_c": 26.39,
+        "value_c": 26.0,
         "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
+        "time": "2026-08-01T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 26.1,
-        "wind_speed_kn": 7.3,
+        "wind_speed_kn": 6.8,
         "wind_gust_kn": 12.1,
-        "wind_dir_deg": 328.0,
+        "wind_dir_deg": 321.0,
         "weather_code": 0,
         "wave_height_m": 0.84,
         "wave_period_s": 4.0
@@ -40,7 +40,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=26.39C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=26.0C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -65,15 +65,15 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-08-01T02:33:18Z",
+      "updated_at": "2026-08-01T08:16:00Z",
       "sst": {
-        "value_c": 24.39,
+        "value_c": 24.14,
         "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
+        "time": "2026-08-01T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 24.8,
-        "wind_speed_kn": 16.3,
+        "wind_speed_kn": 15.9,
         "wind_gust_kn": 47.6,
         "wind_dir_deg": 359.0,
         "weather_code": 0,
@@ -97,7 +97,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.39C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.14C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -122,17 +122,17 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-08-01T02:33:20Z",
+      "updated_at": "2026-08-01T08:16:02Z",
       "sst": {
-        "value_c": 24.4,
+        "value_c": 24.01,
         "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
+        "time": "2026-08-01T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 23.6,
-        "wind_speed_kn": 18.1,
+        "wind_speed_kn": 18.2,
         "wind_gust_kn": 35.4,
-        "wind_dir_deg": 355.0,
+        "wind_dir_deg": 354.0,
         "weather_code": 0,
         "wave_height_m": 1.84,
         "wave_period_s": 5.55
@@ -150,177 +150,6 @@
           "name": "openmeteo",
           "ok": true,
           "message": "168h forecast, sst=24.3"
-        },
-        {
-          "name": "cmems",
-          "ok": true,
-          "message": "sst=24.4C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
-        },
-        {
-          "name": "poseidon",
-          "ok": true,
-          "message": "Aegean forecast reachable"
-        },
-        {
-          "name": "hnms",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-        },
-        {
-          "name": "ceamed",
-          "ok": true,
-          "message": "reference attached (no value parsed)"
-        }
-      ]
-    },
-    {
-      "name": "Santorini",
-      "slug": "santorini",
-      "region": "aegean",
-      "lat": 36.3932,
-      "lon": 25.4615,
-      "updated_at": "2026-08-01T02:33:22Z",
-      "sst": {
-        "value_c": 23.65,
-        "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
-      },
-      "conditions": {
-        "air_temp_c": 24.8,
-        "wind_speed_kn": 6.8,
-        "wind_gust_kn": 17.7,
-        "wind_dir_deg": 333.0,
-        "weather_code": 0,
-        "wave_height_m": 1.34,
-        "wave_period_s": 5.15
-      },
-      "climate": {
-        "anomaly_c": null,
-        "source": "ceamed",
-        "note": "Basin-wide monthly context, not a per-island live value."
-      },
-      "advisories": [
-        "POSEIDON Aegean Sea forecast available — see official bulletin."
-      ],
-      "sources": [
-        {
-          "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=24.1"
-        },
-        {
-          "name": "cmems",
-          "ok": true,
-          "message": "sst=23.65C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
-        },
-        {
-          "name": "poseidon",
-          "ok": true,
-          "message": "Aegean forecast reachable"
-        },
-        {
-          "name": "hnms",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-        },
-        {
-          "name": "ceamed",
-          "ok": true,
-          "message": "reference attached (no value parsed)"
-        }
-      ]
-    },
-    {
-      "name": "Rhodes",
-      "slug": "rhodes",
-      "region": "aegean",
-      "lat": 36.4349,
-      "lon": 28.2176,
-      "updated_at": "2026-08-01T02:33:25Z",
-      "sst": {
-        "value_c": 25.13,
-        "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
-      },
-      "conditions": {
-        "air_temp_c": 24.7,
-        "wind_speed_kn": 2.8,
-        "wind_gust_kn": 4.9,
-        "wind_dir_deg": 286.0,
-        "weather_code": 0,
-        "wave_height_m": 0.38,
-        "wave_period_s": 4.8
-      },
-      "climate": {
-        "anomaly_c": null,
-        "source": "ceamed",
-        "note": "Basin-wide monthly context, not a per-island live value."
-      },
-      "advisories": [
-        "POSEIDON Aegean Sea forecast available — see official bulletin."
-      ],
-      "sources": [
-        {
-          "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=26.0"
-        },
-        {
-          "name": "cmems",
-          "ok": true,
-          "message": "sst=25.13C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
-        },
-        {
-          "name": "poseidon",
-          "ok": true,
-          "message": "Aegean forecast reachable"
-        },
-        {
-          "name": "hnms",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-        },
-        {
-          "name": "ceamed",
-          "ok": true,
-          "message": "reference attached (no value parsed)"
-        }
-      ]
-    },
-    {
-      "name": "Paros",
-      "slug": "paros",
-      "region": "aegean",
-      "lat": 37.0853,
-      "lon": 25.1487,
-      "updated_at": "2026-08-01T02:33:27Z",
-      "sst": {
-        "value_c": 24.01,
-        "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
-      },
-      "conditions": {
-        "air_temp_c": 24.5,
-        "wind_speed_kn": 14.0,
-        "wind_gust_kn": 23.9,
-        "wind_dir_deg": 2.0,
-        "weather_code": 0,
-        "wave_height_m": 1.84,
-        "wave_period_s": 5.55
-      },
-      "climate": {
-        "anomaly_c": null,
-        "source": "ceamed",
-        "note": "Basin-wide monthly context, not a per-island live value."
-      },
-      "advisories": [
-        "POSEIDON Aegean Sea forecast available — see official bulletin."
-      ],
-      "sources": [
-        {
-          "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=24.1"
         },
         {
           "name": "cmems",
@@ -345,22 +174,193 @@
       ]
     },
     {
+      "name": "Santorini",
+      "slug": "santorini",
+      "region": "aegean",
+      "lat": 36.3932,
+      "lon": 25.4615,
+      "updated_at": "2026-08-01T08:16:04Z",
+      "sst": {
+        "value_c": 23.53,
+        "source": "cmems",
+        "time": "2026-08-01T00:00:00Z"
+      },
+      "conditions": {
+        "air_temp_c": 24.8,
+        "wind_speed_kn": 7.7,
+        "wind_gust_kn": 17.7,
+        "wind_dir_deg": 336.0,
+        "weather_code": 0,
+        "wave_height_m": 1.34,
+        "wave_period_s": 5.15
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
+      },
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": true,
+          "message": "168h forecast, sst=24.1"
+        },
+        {
+          "name": "cmems",
+          "ok": true,
+          "message": "sst=23.53C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+        },
+        {
+          "name": "poseidon",
+          "ok": true,
+          "message": "Aegean forecast reachable"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        },
+        {
+          "name": "ceamed",
+          "ok": true,
+          "message": "reference attached (no value parsed)"
+        }
+      ]
+    },
+    {
+      "name": "Rhodes",
+      "slug": "rhodes",
+      "region": "aegean",
+      "lat": 36.4349,
+      "lon": 28.2176,
+      "updated_at": "2026-08-01T08:16:07Z",
+      "sst": {
+        "value_c": 25.54,
+        "source": "cmems",
+        "time": "2026-08-01T00:00:00Z"
+      },
+      "conditions": {
+        "air_temp_c": 24.7,
+        "wind_speed_kn": 2.2,
+        "wind_gust_kn": 4.9,
+        "wind_dir_deg": 280.0,
+        "weather_code": 0,
+        "wave_height_m": 0.38,
+        "wave_period_s": 4.8
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
+      },
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": true,
+          "message": "168h forecast, sst=26.0"
+        },
+        {
+          "name": "cmems",
+          "ok": true,
+          "message": "sst=25.54C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+        },
+        {
+          "name": "poseidon",
+          "ok": true,
+          "message": "Aegean forecast reachable"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        },
+        {
+          "name": "ceamed",
+          "ok": true,
+          "message": "reference attached (no value parsed)"
+        }
+      ]
+    },
+    {
+      "name": "Paros",
+      "slug": "paros",
+      "region": "aegean",
+      "lat": 37.0853,
+      "lon": 25.1487,
+      "updated_at": "2026-08-01T08:16:09Z",
+      "sst": {
+        "value_c": 23.8,
+        "source": "cmems",
+        "time": "2026-08-01T00:00:00Z"
+      },
+      "conditions": {
+        "air_temp_c": 24.6,
+        "wind_speed_kn": 14.4,
+        "wind_gust_kn": 23.9,
+        "wind_dir_deg": 2.0,
+        "weather_code": 0,
+        "wave_height_m": 1.84,
+        "wave_period_s": 5.55
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
+      },
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": true,
+          "message": "168h forecast, sst=24.1"
+        },
+        {
+          "name": "cmems",
+          "ok": true,
+          "message": "sst=23.8C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+        },
+        {
+          "name": "poseidon",
+          "ok": true,
+          "message": "Aegean forecast reachable"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        },
+        {
+          "name": "ceamed",
+          "ok": true,
+          "message": "reference attached (no value parsed)"
+        }
+      ]
+    },
+    {
       "name": "Kefalonia",
       "slug": "kefalonia",
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-08-01T02:33:29Z",
+      "updated_at": "2026-08-01T08:16:11Z",
       "sst": {
-        "value_c": 26.33,
+        "value_c": 26.0,
         "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
+        "time": "2026-08-01T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 25.4,
-        "wind_speed_kn": 6.1,
+        "air_temp_c": 25.3,
+        "wind_speed_kn": 5.9,
         "wind_gust_kn": 20.4,
-        "wind_dir_deg": 40.0,
+        "wind_dir_deg": 41.0,
         "weather_code": 0,
         "wave_height_m": 0.4,
         "wave_period_s": 3.65
@@ -378,63 +378,6 @@
           "name": "openmeteo",
           "ok": true,
           "message": "168h forecast, sst=27.2"
-        },
-        {
-          "name": "cmems",
-          "ok": true,
-          "message": "sst=26.33C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
-        },
-        {
-          "name": "poseidon",
-          "ok": true,
-          "message": "Ionian forecast reachable"
-        },
-        {
-          "name": "hnms",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-        },
-        {
-          "name": "ceamed",
-          "ok": true,
-          "message": "reference attached (no value parsed)"
-        }
-      ]
-    },
-    {
-      "name": "Corfu",
-      "slug": "corfu",
-      "region": "ionian",
-      "lat": 39.6243,
-      "lon": 19.9217,
-      "updated_at": "2026-08-01T02:33:30Z",
-      "sst": {
-        "value_c": 26.0,
-        "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
-      },
-      "conditions": {
-        "air_temp_c": 26.8,
-        "wind_speed_kn": 0.8,
-        "wind_gust_kn": 1.9,
-        "wind_dir_deg": 104.0,
-        "weather_code": 0,
-        "wave_height_m": 0.38,
-        "wave_period_s": 3.95
-      },
-      "climate": {
-        "anomaly_c": null,
-        "source": "ceamed",
-        "note": "Basin-wide monthly context, not a per-island live value."
-      },
-      "advisories": [
-        "POSEIDON Ionian Sea forecast available — see official bulletin."
-      ],
-      "sources": [
-        {
-          "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=26.9"
         },
         {
           "name": "cmems",
@@ -459,22 +402,79 @@
       ]
     },
     {
+      "name": "Corfu",
+      "slug": "corfu",
+      "region": "ionian",
+      "lat": 39.6243,
+      "lon": 19.9217,
+      "updated_at": "2026-08-01T08:16:13Z",
+      "sst": {
+        "value_c": 25.73,
+        "source": "cmems",
+        "time": "2026-08-01T00:00:00Z"
+      },
+      "conditions": {
+        "air_temp_c": 26.7,
+        "wind_speed_kn": 1.2,
+        "wind_gust_kn": 1.9,
+        "wind_dir_deg": 99.0,
+        "weather_code": 0,
+        "wave_height_m": 0.38,
+        "wave_period_s": 3.95
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
+      },
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": true,
+          "message": "168h forecast, sst=26.9"
+        },
+        {
+          "name": "cmems",
+          "ok": true,
+          "message": "sst=25.73C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+        },
+        {
+          "name": "poseidon",
+          "ok": true,
+          "message": "Ionian forecast reachable"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        },
+        {
+          "name": "ceamed",
+          "ok": true,
+          "message": "reference attached (no value parsed)"
+        }
+      ]
+    },
+    {
       "name": "Zakynthos",
       "slug": "zakynthos",
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-08-01T02:33:33Z",
+      "updated_at": "2026-08-01T08:16:14Z",
       "sst": {
-        "value_c": 26.05,
+        "value_c": 25.85,
         "source": "cmems",
-        "time": "2026-07-31T00:00:00Z"
+        "time": "2026-08-01T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 27.3,
-        "wind_speed_kn": 5.8,
+        "air_temp_c": 27.0,
+        "wind_speed_kn": 5.5,
         "wind_gust_kn": 11.1,
-        "wind_dir_deg": 15.0,
+        "wind_dir_deg": 8.0,
         "weather_code": 0,
         "wave_height_m": 0.32,
         "wave_period_s": 3.6
@@ -496,7 +496,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=26.05C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=25.85C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -525,7 +525,7 @@
     {
       "name": "cmems",
       "ok": true,
-      "message": "sst=26.39C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+      "message": "sst=26.0C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
     },
     {
       "name": "poseidon",
