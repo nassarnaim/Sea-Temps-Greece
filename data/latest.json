@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:05:10Z",
+  "generated_at": "2026-08-04T19:28:25Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,9 +8,9 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-08-04T14:04:30Z",
+      "updated_at": "2026-08-04T19:27:56Z",
       "sst": {
-        "value_c": 26.0,
+        "value_c": 25.94,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -40,7 +40,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=26.0C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=25.94C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -65,9 +65,9 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-08-04T14:04:49Z",
+      "updated_at": "2026-08-04T19:28:10Z",
       "sst": {
-        "value_c": 24.18,
+        "value_c": 24.2,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -97,7 +97,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.18C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.2C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -122,9 +122,9 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-08-04T14:04:52Z",
+      "updated_at": "2026-08-04T19:28:12Z",
       "sst": {
-        "value_c": 24.22,
+        "value_c": 24.36,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -154,7 +154,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.22C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.36C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -179,9 +179,9 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-08-04T14:04:54Z",
+      "updated_at": "2026-08-04T19:28:14Z",
       "sst": {
-        "value_c": 23.91,
+        "value_c": 24.04,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -211,7 +211,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.91C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.04C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -236,9 +236,9 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-08-04T14:04:57Z",
+      "updated_at": "2026-08-04T19:28:16Z",
       "sst": {
-        "value_c": 26.41,
+        "value_c": 26.43,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -268,7 +268,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=26.41C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=26.43C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -293,9 +293,9 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-08-04T14:05:00Z",
+      "updated_at": "2026-08-04T19:28:18Z",
       "sst": {
-        "value_c": 23.92,
+        "value_c": 24.0,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -325,7 +325,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.92C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.0C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -350,9 +350,9 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-08-04T14:05:02Z",
+      "updated_at": "2026-08-04T19:28:20Z",
       "sst": {
-        "value_c": 26.62,
+        "value_c": 26.75,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -382,7 +382,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=26.62C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=26.75C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -407,9 +407,9 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-08-04T14:05:05Z",
+      "updated_at": "2026-08-04T19:28:22Z",
       "sst": {
-        "value_c": 27.06,
+        "value_c": 27.09,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -439,7 +439,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=27.06C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=27.09C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -464,9 +464,9 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-08-04T14:05:07Z",
+      "updated_at": "2026-08-04T19:28:23Z",
       "sst": {
-        "value_c": 26.09,
+        "value_c": 26.06,
         "source": "cmems",
         "time": "2026-08-04T00:00:00Z"
       },
@@ -496,7 +496,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=26.09C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=26.06C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -525,7 +525,7 @@
     {
       "name": "cmems",
       "ok": true,
-      "message": "sst=26.0C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+      "message": "sst=25.94C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
     },
     {
       "name": "poseidon",
