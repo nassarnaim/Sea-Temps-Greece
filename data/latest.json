@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:46:44Z",
+  "generated_at": "2026-08-09T18:36:59Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,11 +8,11 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-08-09T12:43:16Z",
+      "updated_at": "2026-08-09T18:36:22Z",
       "sst": {
-        "value_c": 27.0,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 26.98,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 28.1,
@@ -39,8 +39,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "TimeoutError: CMEMS open/load exceeded 180s; using backbone"
+          "ok": true,
+          "message": "sst=26.98C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -65,11 +65,11 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-08-09T12:46:21Z",
+      "updated_at": "2026-08-09T18:36:39Z",
       "sst": {
-        "value_c": 24.8,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 24.91,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 29.5,
@@ -96,8 +96,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2 (skipped)"
+          "ok": true,
+          "message": "sst=24.91C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -122,11 +122,11 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-08-09T12:46:25Z",
+      "updated_at": "2026-08-09T18:36:42Z",
       "sst": {
-        "value_c": 25.0,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 25.07,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 27.7,
@@ -153,8 +153,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2 (skipped)"
+          "ok": true,
+          "message": "sst=25.07C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -179,11 +179,11 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-08-09T12:46:28Z",
+      "updated_at": "2026-08-09T18:36:45Z",
       "sst": {
-        "value_c": 24.6,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 24.31,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 27.3,
@@ -210,8 +210,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2 (skipped)"
+          "ok": true,
+          "message": "sst=24.31C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -236,11 +236,11 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-08-09T12:46:30Z",
+      "updated_at": "2026-08-09T18:36:47Z",
       "sst": {
-        "value_c": 27.2,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 26.42,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 25.7,
@@ -267,8 +267,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2 (skipped)"
+          "ok": true,
+          "message": "sst=26.42C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -293,11 +293,11 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-08-09T12:46:32Z",
+      "updated_at": "2026-08-09T18:36:49Z",
       "sst": {
-        "value_c": 24.7,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 24.31,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 26.9,
@@ -324,8 +324,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2 (skipped)"
+          "ok": true,
+          "message": "sst=24.31C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -350,11 +350,11 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-08-09T12:46:35Z",
+      "updated_at": "2026-08-09T18:36:52Z",
       "sst": {
-        "value_c": 27.9,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 27.87,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 26.3,
@@ -381,8 +381,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2 (skipped)"
+          "ok": true,
+          "message": "sst=27.87C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -407,11 +407,11 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-08-09T12:46:38Z",
+      "updated_at": "2026-08-09T18:36:54Z",
       "sst": {
-        "value_c": 28.1,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 27.95,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 28.0,
@@ -438,8 +438,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2 (skipped)"
+          "ok": true,
+          "message": "sst=27.95C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -464,11 +464,11 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-08-09T12:46:41Z",
+      "updated_at": "2026-08-09T18:36:56Z",
       "sst": {
-        "value_c": 28.3,
-        "source": "openmeteo",
-        "time": "2026-08-09T00:00"
+        "value_c": 27.45,
+        "source": "cmems",
+        "time": "2026-08-09T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 26.2,
@@ -495,8 +495,8 @@
         },
         {
           "name": "cmems",
-          "ok": false,
-          "message": "RuntimeError: CMEMS open previously failed for SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2 (skipped)"
+          "ok": true,
+          "message": "sst=27.45C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -524,8 +524,8 @@
     },
     {
       "name": "cmems",
-      "ok": false,
-      "message": "TimeoutError: CMEMS open/load exceeded 180s; using backbone"
+      "ok": true,
+      "message": "sst=26.98C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
     },
     {
       "name": "poseidon",
