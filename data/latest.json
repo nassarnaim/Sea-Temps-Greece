@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:05:44Z",
+  "generated_at": "2026-08-17T06:49:46Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,25 +8,25 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-08-17T01:05:02Z",
+      "updated_at": "2026-08-17T06:49:04Z",
       "sst": {
         "value_c": 25.64,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 22.1,
-        "wind_speed_kn": 1.7,
+        "air_temp_c": 21.8,
+        "wind_speed_kn": 1.5,
         "wind_gust_kn": 1.9,
-        "wind_dir_deg": 339.0,
+        "wind_dir_deg": 320.0,
         "weather_code": 0,
         "wave_height_m": 0.48,
         "wave_period_s": 4.55
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -54,8 +54,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -65,25 +65,25 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-08-17T01:05:21Z",
+      "updated_at": "2026-08-17T06:49:22Z",
       "sst": {
         "value_c": 23.83,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 25.1,
-        "wind_speed_kn": 6.7,
+        "air_temp_c": 24.7,
+        "wind_speed_kn": 6.9,
         "wind_gust_kn": 19.0,
-        "wind_dir_deg": 324.0,
+        "wind_dir_deg": 322.0,
         "weather_code": 0,
         "wave_height_m": 0.66,
         "wave_period_s": 3.75
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -111,8 +111,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -122,25 +122,25 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-08-17T01:05:23Z",
+      "updated_at": "2026-08-17T06:49:25Z",
       "sst": {
         "value_c": 24.14,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 22.8,
-        "wind_speed_kn": 5.7,
+        "air_temp_c": 22.4,
+        "wind_speed_kn": 6.0,
         "wind_gust_kn": 15.6,
-        "wind_dir_deg": 342.0,
+        "wind_dir_deg": 341.0,
         "weather_code": 0,
         "wave_height_m": 0.7,
         "wave_period_s": 4.15
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -168,8 +168,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -179,25 +179,25 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-08-17T01:05:26Z",
+      "updated_at": "2026-08-17T06:49:28Z",
       "sst": {
         "value_c": 24.19,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 23.3,
-        "wind_speed_kn": 11.3,
+        "air_temp_c": 22.9,
+        "wind_speed_kn": 11.2,
         "wind_gust_kn": 21.4,
-        "wind_dir_deg": 314.0,
+        "wind_dir_deg": 307.0,
         "weather_code": 1,
         "wave_height_m": 1.0,
         "wave_period_s": 4.35
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -225,8 +225,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -236,25 +236,25 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-08-17T01:05:31Z",
+      "updated_at": "2026-08-17T06:49:33Z",
       "sst": {
         "value_c": 26.94,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 24.9,
-        "wind_speed_kn": 10.0,
+        "air_temp_c": 24.6,
+        "wind_speed_kn": 10.6,
         "wind_gust_kn": 18.7,
-        "wind_dir_deg": 279.0,
+        "wind_dir_deg": 278.0,
         "weather_code": 0,
         "wave_height_m": 0.52,
         "wave_period_s": 4.25
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -282,8 +282,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -293,25 +293,25 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-08-17T01:05:33Z",
+      "updated_at": "2026-08-17T06:49:35Z",
       "sst": {
         "value_c": 23.54,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 23.6,
-        "wind_speed_kn": 7.7,
+        "air_temp_c": 23.1,
+        "wind_speed_kn": 6.8,
         "wind_gust_kn": 13.2,
-        "wind_dir_deg": 330.0,
+        "wind_dir_deg": 325.0,
         "weather_code": 0,
         "wave_height_m": 0.92,
         "wave_period_s": 4.45
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -339,8 +339,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -350,25 +350,25 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-08-17T01:05:35Z",
+      "updated_at": "2026-08-17T06:49:38Z",
       "sst": {
         "value_c": 27.08,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 21.2,
-        "wind_speed_kn": 3.1,
+        "air_temp_c": 20.8,
+        "wind_speed_kn": 3.3,
         "wind_gust_kn": 5.8,
-        "wind_dir_deg": 22.0,
+        "wind_dir_deg": 17.0,
         "weather_code": 0,
         "wave_height_m": 0.14,
         "wave_period_s": 2.9
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Ionian Sea forecast available — see official bulletin."
@@ -396,8 +396,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -407,25 +407,25 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-08-17T01:05:39Z",
+      "updated_at": "2026-08-17T06:49:41Z",
       "sst": {
         "value_c": 28.04,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 24.4,
-        "wind_speed_kn": 1.4,
+        "air_temp_c": 23.9,
+        "wind_speed_kn": 0.9,
         "wind_gust_kn": 2.3,
-        "wind_dir_deg": 286.0,
+        "wind_dir_deg": 297.0,
         "weather_code": 0,
         "wave_height_m": 0.14,
         "wave_period_s": 2.95
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Ionian Sea forecast available — see official bulletin."
@@ -453,8 +453,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -464,25 +464,25 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-08-17T01:05:41Z",
+      "updated_at": "2026-08-17T06:49:44Z",
       "sst": {
         "value_c": 27.3,
         "source": "cmems",
         "time": "2026-08-16T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 22.8,
-        "wind_speed_kn": 2.5,
+        "air_temp_c": 22.4,
+        "wind_speed_kn": 2.7,
         "wind_gust_kn": 4.3,
-        "wind_dir_deg": 270.0,
+        "wind_dir_deg": 274.0,
         "weather_code": 0,
         "wave_height_m": 0.24,
         "wave_period_s": 3.05
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Ionian Sea forecast available — see official bulletin."
@@ -510,8 +510,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     }
@@ -539,8 +539,8 @@
     },
     {
       "name": "ceamed",
-      "ok": false,
-      "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.ceam.es/ceamet/SST/SST-trend.html"
+      "ok": true,
+      "message": "reference attached (no value parsed)"
     }
   ]
 }
