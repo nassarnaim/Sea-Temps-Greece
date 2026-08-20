@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T06:45:54Z",
+  "generated_at": "2026-08-20T12:42:24Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,11 +8,11 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-08-20T06:40:41Z",
+      "updated_at": "2026-08-20T12:41:51Z",
       "sst": {
-        "value_c": 25.9,
+        "value_c": 26.2,
         "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
+        "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 23.9,
@@ -21,12 +21,12 @@
         "wind_dir_deg": 299.0,
         "weather_code": 0,
         "wave_height_m": 0.04,
-        "wave_period_s": 3.5
+        "wave_period_s": 3.1
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -35,12 +35,12 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=26.2"
+          "message": "168h forecast, sst=26.0"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=25.9C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=26.2C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -54,8 +54,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ReadTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Read timed out. (read timeout=30)"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -65,11 +65,11 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-08-20T06:41:30Z",
+      "updated_at": "2026-08-20T12:42:07Z",
       "sst": {
-        "value_c": 24.6,
+        "value_c": 25.58,
         "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
+        "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 24.5,
@@ -78,12 +78,12 @@
         "wind_dir_deg": 352.0,
         "weather_code": 0,
         "wave_height_m": 0.14,
-        "wave_period_s": 4.65
+        "wave_period_s": 4.45
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -97,7 +97,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.6C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=25.58C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -111,8 +111,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7fd4baa8b8d0>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -122,11 +122,11 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-08-20T06:42:05Z",
+      "updated_at": "2026-08-20T12:42:09Z",
       "sst": {
-        "value_c": 24.67,
+        "value_c": 25.86,
         "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
+        "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 22.2,
@@ -139,8 +139,65 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
+      },
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": true,
+          "message": "168h forecast, sst=25.5"
+        },
+        {
+          "name": "cmems",
+          "ok": true,
+          "message": "sst=25.86C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+        },
+        {
+          "name": "poseidon",
+          "ok": true,
+          "message": "Aegean forecast reachable"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        },
+        {
+          "name": "ceamed",
+          "ok": true,
+          "message": "reference attached (no value parsed)"
+        }
+      ]
+    },
+    {
+      "name": "Santorini",
+      "slug": "santorini",
+      "region": "aegean",
+      "lat": 36.3932,
+      "lon": 25.4615,
+      "updated_at": "2026-08-20T12:42:12Z",
+      "sst": {
+        "value_c": 25.58,
+        "source": "cmems",
+        "time": "2026-08-20T00:00:00Z"
+      },
+      "conditions": {
+        "air_temp_c": 23.4,
+        "wind_speed_kn": 2.9,
+        "wind_gust_kn": 8.4,
+        "wind_dir_deg": 298.0,
+        "weather_code": 0,
+        "wave_height_m": 0.26,
+        "wave_period_s": 5.15
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -154,7 +211,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.67C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=25.58C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -168,65 +225,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7fd4baa6ca90>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))"
-        }
-      ]
-    },
-    {
-      "name": "Santorini",
-      "slug": "santorini",
-      "region": "aegean",
-      "lat": 36.3932,
-      "lon": 25.4615,
-      "updated_at": "2026-08-20T06:42:39Z",
-      "sst": {
-        "value_c": 24.41,
-        "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
-      },
-      "conditions": {
-        "air_temp_c": 23.4,
-        "wind_speed_kn": 2.9,
-        "wind_gust_kn": 8.4,
-        "wind_dir_deg": 298.0,
-        "weather_code": 0,
-        "wave_height_m": 0.22,
-        "wave_period_s": 5.2
-      },
-      "climate": {
-        "anomaly_c": null,
-        "source": null,
-        "note": null
-      },
-      "advisories": [
-        "POSEIDON Aegean Sea forecast available — see official bulletin."
-      ],
-      "sources": [
-        {
-          "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=25.4"
-        },
-        {
-          "name": "cmems",
-          "ok": true,
-          "message": "sst=24.41C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
-        },
-        {
-          "name": "poseidon",
-          "ok": true,
-          "message": "Aegean forecast reachable"
-        },
-        {
-          "name": "hnms",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-        },
-        {
-          "name": "ceamed",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7fd4baa8a910>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))"
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -236,11 +236,11 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-08-20T06:43:11Z",
+      "updated_at": "2026-08-20T12:42:13Z",
       "sst": {
-        "value_c": 25.82,
+        "value_c": 26.23,
         "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
+        "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 24.7,
@@ -249,12 +249,12 @@
         "wind_dir_deg": 280.0,
         "weather_code": 1,
         "wave_height_m": 0.2,
-        "wave_period_s": 2.9
+        "wave_period_s": 2.95
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -263,12 +263,12 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=27.4"
+          "message": "168h forecast, sst=27.0"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=25.82C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=26.23C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -282,8 +282,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7fd4baa8a190>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -293,11 +293,11 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-08-20T06:43:44Z",
+      "updated_at": "2026-08-20T12:42:16Z",
       "sst": {
-        "value_c": 24.14,
+        "value_c": 24.99,
         "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
+        "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 23.1,
@@ -310,8 +310,8 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -320,12 +320,12 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=25.3"
+          "message": "168h forecast, sst=25.2"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.14C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.99C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -339,8 +339,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7fd4baa61d90>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -350,11 +350,11 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-08-20T06:44:17Z",
+      "updated_at": "2026-08-20T12:42:18Z",
       "sst": {
-        "value_c": 27.37,
+        "value_c": 27.79,
         "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
+        "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 22.5,
@@ -362,13 +362,13 @@
         "wind_gust_kn": 3.5,
         "wind_dir_deg": 36.0,
         "weather_code": 0,
-        "wave_height_m": 0.34,
-        "wave_period_s": 4.5
+        "wave_height_m": 0.38,
+        "wave_period_s": 5.0
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Ionian Sea forecast available — see official bulletin."
@@ -377,12 +377,12 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=28.2"
+          "message": "168h forecast, sst=28.3"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=27.37C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=27.79C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -396,8 +396,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7fd4baa8a850>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -407,11 +407,11 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-08-20T06:44:50Z",
+      "updated_at": "2026-08-20T12:42:20Z",
       "sst": {
-        "value_c": 28.17,
+        "value_c": 28.37,
         "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
+        "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 24.2,
@@ -419,13 +419,13 @@
         "wind_gust_kn": 4.1,
         "wind_dir_deg": 278.0,
         "weather_code": 0,
-        "wave_height_m": 0.26,
-        "wave_period_s": 4.0
+        "wave_height_m": 0.28,
+        "wave_period_s": 3.95
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Ionian Sea forecast available — see official bulletin."
@@ -434,12 +434,12 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=28.6"
+          "message": "168h forecast, sst=28.7"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=28.17C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=28.37C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -453,8 +453,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7fd4baa6f590>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -464,11 +464,11 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-08-20T06:45:22Z",
+      "updated_at": "2026-08-20T12:42:22Z",
       "sst": {
-        "value_c": 27.39,
+        "value_c": 27.77,
         "source": "cmems",
-        "time": "2026-08-19T00:00:00Z"
+        "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 24.0,
@@ -476,13 +476,13 @@
         "wind_gust_kn": 4.3,
         "wind_dir_deg": 292.0,
         "weather_code": 0,
-        "wave_height_m": 0.36,
-        "wave_period_s": 4.7
+        "wave_height_m": 0.46,
+        "wave_period_s": 5.3
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Ionian Sea forecast available — see official bulletin."
@@ -491,12 +491,12 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=28.2"
+          "message": "168h forecast, sst=28.1"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=27.39C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=27.77C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -510,8 +510,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Max retries exceeded with url: /ceamet/SST/SST-trend.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ceam.es', port=443) at 0x7fd4baa8b950>, 'Connection to www.ceam.es timed out. (connect timeout=30)'))"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     }
@@ -520,12 +520,12 @@
     {
       "name": "openmeteo",
       "ok": true,
-      "message": "168h forecast, sst=26.2"
+      "message": "168h forecast, sst=26.0"
     },
     {
       "name": "cmems",
       "ok": true,
-      "message": "sst=25.9C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+      "message": "sst=26.2C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
     },
     {
       "name": "poseidon",
@@ -539,8 +539,8 @@
     },
     {
       "name": "ceamed",
-      "ok": false,
-      "message": "ReadTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Read timed out. (read timeout=30)"
+      "ok": true,
+      "message": "reference attached (no value parsed)"
     }
   ]
 }
