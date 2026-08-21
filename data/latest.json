@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:07:30Z",
+  "generated_at": "2026-08-21T06:40:48Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,14 +8,14 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-08-21T01:06:49Z",
+      "updated_at": "2026-08-21T06:40:12Z",
       "sst": {
         "value_c": 26.2,
         "source": "cmems",
         "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 24.4,
+        "air_temp_c": 24.3,
         "wind_speed_kn": 2.8,
         "wind_gust_kn": 4.1,
         "wind_dir_deg": 309.0,
@@ -65,17 +65,17 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-08-21T01:07:09Z",
+      "updated_at": "2026-08-21T06:40:30Z",
       "sst": {
         "value_c": 25.58,
         "source": "cmems",
         "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 27.5,
-        "wind_speed_kn": 3.5,
+        "air_temp_c": 27.3,
+        "wind_speed_kn": 2.9,
         "wind_gust_kn": 17.7,
-        "wind_dir_deg": 326.0,
+        "wind_dir_deg": 323.0,
         "weather_code": 0,
         "wave_height_m": 0.42,
         "wave_period_s": 3.05
@@ -122,17 +122,17 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-08-21T01:07:12Z",
+      "updated_at": "2026-08-21T06:40:32Z",
       "sst": {
         "value_c": 25.86,
         "source": "cmems",
         "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 23.9,
-        "wind_speed_kn": 3.5,
+        "air_temp_c": 23.5,
+        "wind_speed_kn": 3.1,
         "wind_gust_kn": 12.4,
-        "wind_dir_deg": 333.0,
+        "wind_dir_deg": 330.0,
         "weather_code": 0,
         "wave_height_m": 0.34,
         "wave_period_s": 3.5
@@ -179,17 +179,17 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-08-21T01:07:15Z",
+      "updated_at": "2026-08-21T06:40:34Z",
       "sst": {
         "value_c": 25.58,
         "source": "cmems",
         "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 24.9,
-        "wind_speed_kn": 3.3,
+        "air_temp_c": 25.0,
+        "wind_speed_kn": 3.2,
         "wind_gust_kn": 9.1,
-        "wind_dir_deg": 298.0,
+        "wind_dir_deg": 295.0,
         "weather_code": 0,
         "wave_height_m": 0.42,
         "wave_period_s": 4.2
@@ -236,17 +236,17 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-08-21T01:07:17Z",
+      "updated_at": "2026-08-21T06:40:36Z",
       "sst": {
         "value_c": 26.23,
         "source": "cmems",
         "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 25.7,
-        "wind_speed_kn": 4.5,
+        "air_temp_c": 25.8,
+        "wind_speed_kn": 5.1,
         "wind_gust_kn": 9.3,
-        "wind_dir_deg": 277.0,
+        "wind_dir_deg": 281.0,
         "weather_code": 0,
         "wave_height_m": 0.14,
         "wave_period_s": 4.1
@@ -293,17 +293,17 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-08-21T01:07:20Z",
+      "updated_at": "2026-08-21T06:40:39Z",
       "sst": {
         "value_c": 24.99,
         "source": "cmems",
         "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 25.1,
-        "wind_speed_kn": 1.6,
+        "air_temp_c": 25.2,
+        "wind_speed_kn": 1.4,
         "wind_gust_kn": 5.2,
-        "wind_dir_deg": 30.0,
+        "wind_dir_deg": 8.0,
         "weather_code": 0,
         "wave_height_m": 0.5,
         "wave_period_s": 3.55
@@ -350,7 +350,7 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-08-21T01:07:23Z",
+      "updated_at": "2026-08-21T06:40:41Z",
       "sst": {
         "value_c": 27.79,
         "source": "cmems",
@@ -358,9 +358,9 @@
       },
       "conditions": {
         "air_temp_c": 23.6,
-        "wind_speed_kn": 4.7,
+        "wind_speed_kn": 4.4,
         "wind_gust_kn": 5.8,
-        "wind_dir_deg": 17.0,
+        "wind_dir_deg": 15.0,
         "weather_code": 1,
         "wave_height_m": 0.18,
         "wave_period_s": 2.7
@@ -407,17 +407,17 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-08-21T01:07:25Z",
+      "updated_at": "2026-08-21T06:40:44Z",
       "sst": {
         "value_c": 28.37,
         "source": "cmems",
         "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 23.9,
-        "wind_speed_kn": 1.8,
+        "air_temp_c": 24.0,
+        "wind_speed_kn": 1.7,
         "wind_gust_kn": 3.5,
-        "wind_dir_deg": 288.0,
+        "wind_dir_deg": 297.0,
         "weather_code": 45,
         "wave_height_m": 0.1,
         "wave_period_s": 3.55
@@ -464,17 +464,17 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-08-21T01:07:28Z",
+      "updated_at": "2026-08-21T06:40:47Z",
       "sst": {
         "value_c": 27.77,
         "source": "cmems",
         "time": "2026-08-20T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 24.6,
-        "wind_speed_kn": 2.2,
+        "air_temp_c": 24.4,
+        "wind_speed_kn": 2.0,
         "wind_gust_kn": 3.5,
-        "wind_dir_deg": 297.0,
+        "wind_dir_deg": 299.0,
         "weather_code": 0,
         "wave_height_m": 0.24,
         "wave_period_s": 3.0
