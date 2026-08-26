@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:09:55Z",
+  "generated_at": "2026-08-26T06:43:19Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,17 +8,17 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-08-26T01:07:32Z",
+      "updated_at": "2026-08-26T06:42:36Z",
       "sst": {
         "value_c": 27.02,
         "source": "cmems",
         "time": "2026-08-25T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 26.0,
-        "wind_speed_kn": 1.9,
+        "air_temp_c": 25.9,
+        "wind_speed_kn": 2.0,
         "wind_gust_kn": 3.3,
-        "wind_dir_deg": 294.0,
+        "wind_dir_deg": 299.0,
         "weather_code": 0,
         "wave_height_m": 0.2,
         "wave_period_s": 3.8
@@ -65,14 +65,14 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-08-26T01:08:04Z",
+      "updated_at": "2026-08-26T06:42:56Z",
       "sst": {
         "value_c": 25.38,
         "source": "cmems",
         "time": "2026-08-25T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 27.3,
+        "air_temp_c": 27.1,
         "wind_speed_kn": 3.4,
         "wind_gust_kn": 9.3,
         "wind_dir_deg": 257.0,
@@ -122,17 +122,17 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-08-26T01:08:07Z",
+      "updated_at": "2026-08-26T06:42:59Z",
       "sst": {
         "value_c": 25.61,
         "source": "cmems",
         "time": "2026-08-25T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 24.8,
-        "wind_speed_kn": 3.1,
+        "air_temp_c": 24.4,
+        "wind_speed_kn": 3.0,
         "wind_gust_kn": 9.5,
-        "wind_dir_deg": 288.0,
+        "wind_dir_deg": 281.0,
         "weather_code": 0,
         "wave_height_m": 0.28,
         "wave_period_s": 3.7
@@ -179,7 +179,7 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-08-26T01:08:10Z",
+      "updated_at": "2026-08-26T06:43:02Z",
       "sst": {
         "value_c": 25.54,
         "source": "cmems",
@@ -187,7 +187,7 @@
       },
       "conditions": {
         "air_temp_c": 27.5,
-        "wind_speed_kn": 5.5,
+        "wind_speed_kn": 5.9,
         "wind_gust_kn": 17.3,
         "wind_dir_deg": 297.0,
         "weather_code": 0,
@@ -196,8 +196,8 @@
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -225,8 +225,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ReadTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Read timed out. (read timeout=30)"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -236,25 +236,25 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-08-26T01:08:43Z",
+      "updated_at": "2026-08-26T06:43:05Z",
       "sst": {
         "value_c": 26.92,
         "source": "cmems",
         "time": "2026-08-25T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 26.8,
-        "wind_speed_kn": 8.8,
+        "air_temp_c": 26.7,
+        "wind_speed_kn": 9.3,
         "wind_gust_kn": 16.3,
-        "wind_dir_deg": 283.0,
+        "wind_dir_deg": 282.0,
         "weather_code": 0,
         "wave_height_m": 0.42,
         "wave_period_s": 3.8
       },
       "climate": {
         "anomaly_c": null,
-        "source": null,
-        "note": null
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
       },
       "advisories": [
         "POSEIDON Aegean Sea forecast available — see official bulletin."
@@ -282,8 +282,8 @@
         },
         {
           "name": "ceamed",
-          "ok": false,
-          "message": "ReadTimeout: HTTPSConnectionPool(host='www.ceam.es', port=443): Read timed out. (read timeout=30)"
+          "ok": true,
+          "message": "reference attached (no value parsed)"
         }
       ]
     },
@@ -293,7 +293,7 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-08-26T01:09:15Z",
+      "updated_at": "2026-08-26T06:43:08Z",
       "sst": {
         "value_c": 24.74,
         "source": "cmems",
@@ -301,9 +301,9 @@
       },
       "conditions": {
         "air_temp_c": 25.5,
-        "wind_speed_kn": 0.7,
+        "wind_speed_kn": 1.5,
         "wind_gust_kn": 4.9,
-        "wind_dir_deg": 304.0,
+        "wind_dir_deg": 310.0,
         "weather_code": 0,
         "wave_height_m": 0.44,
         "wave_period_s": 3.95
@@ -350,17 +350,17 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-08-26T01:09:19Z",
+      "updated_at": "2026-08-26T06:43:11Z",
       "sst": {
         "value_c": 28.5,
         "source": "cmems",
         "time": "2026-08-25T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 24.3,
+        "air_temp_c": 24.0,
         "wind_speed_kn": 2.3,
         "wind_gust_kn": 15.0,
-        "wind_dir_deg": 318.0,
+        "wind_dir_deg": 290.0,
         "weather_code": 0,
         "wave_height_m": 0.44,
         "wave_period_s": 3.6
@@ -407,7 +407,7 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-08-26T01:09:22Z",
+      "updated_at": "2026-08-26T06:43:14Z",
       "sst": {
         "value_c": 28.33,
         "source": "cmems",
@@ -415,9 +415,9 @@
       },
       "conditions": {
         "air_temp_c": 26.9,
-        "wind_speed_kn": 2.2,
+        "wind_speed_kn": 3.2,
         "wind_gust_kn": 4.7,
-        "wind_dir_deg": 170.0,
+        "wind_dir_deg": 166.0,
         "weather_code": 2,
         "wave_height_m": 0.38,
         "wave_period_s": 3.4
@@ -464,15 +464,15 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-08-26T01:09:25Z",
+      "updated_at": "2026-08-26T06:43:16Z",
       "sst": {
         "value_c": 28.42,
         "source": "cmems",
         "time": "2026-08-25T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 24.7,
-        "wind_speed_kn": 2.3,
+        "air_temp_c": 24.6,
+        "wind_speed_kn": 1.9,
         "wind_gust_kn": 3.1,
         "wind_dir_deg": 270.0,
         "weather_code": 0,
