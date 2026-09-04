@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:44:45Z",
+  "generated_at": "2026-09-04T20:15:43Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,7 +8,7 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-09-04T15:44:02Z",
+      "updated_at": "2026-09-04T20:15:01Z",
       "sst": {
         "value_c": 26.99,
         "source": "cmems",
@@ -65,7 +65,7 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-09-04T15:44:22Z",
+      "updated_at": "2026-09-04T20:15:22Z",
       "sst": {
         "value_c": 25.12,
         "source": "cmems",
@@ -122,7 +122,7 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-09-04T15:44:24Z",
+      "updated_at": "2026-09-04T20:15:25Z",
       "sst": {
         "value_c": 25.06,
         "source": "cmems",
@@ -179,7 +179,7 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-09-04T15:44:27Z",
+      "updated_at": "2026-09-04T20:15:28Z",
       "sst": {
         "value_c": 25.24,
         "source": "cmems",
@@ -236,7 +236,7 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-09-04T15:44:31Z",
+      "updated_at": "2026-09-04T20:15:31Z",
       "sst": {
         "value_c": 27.84,
         "source": "cmems",
@@ -293,7 +293,7 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-09-04T15:44:33Z",
+      "updated_at": "2026-09-04T20:15:33Z",
       "sst": {
         "value_c": 24.23,
         "source": "cmems",
@@ -350,7 +350,7 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-09-04T15:44:38Z",
+      "updated_at": "2026-09-04T20:15:36Z",
       "sst": {
         "value_c": 28.45,
         "source": "cmems",
@@ -407,7 +407,7 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-09-04T15:44:40Z",
+      "updated_at": "2026-09-04T20:15:38Z",
       "sst": {
         "value_c": 28.19,
         "source": "cmems",
@@ -464,7 +464,7 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-09-04T15:44:43Z",
+      "updated_at": "2026-09-04T20:15:41Z",
       "sst": {
         "value_c": 28.62,
         "source": "cmems",
