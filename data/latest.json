@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:00:08Z",
+  "generated_at": "2026-10-02T11:51:44Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,11 +8,11 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-10-02T03:59:24Z",
+      "updated_at": "2026-10-02T11:51:13Z",
       "sst": {
-        "value_c": 24.46,
+        "value_c": 24.19,
         "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
+        "time": "2026-10-02T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 19.4,
@@ -40,7 +40,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.46C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.19C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -65,11 +65,11 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-10-02T03:59:45Z",
+      "updated_at": "2026-10-02T11:51:28Z",
       "sst": {
-        "value_c": 23.15,
+        "value_c": 22.82,
         "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
+        "time": "2026-10-02T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 20.1,
@@ -97,7 +97,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.15C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.82C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -122,11 +122,11 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-10-02T03:59:48Z",
+      "updated_at": "2026-10-02T11:51:30Z",
       "sst": {
-        "value_c": 23.05,
+        "value_c": 22.69,
         "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
+        "time": "2026-10-02T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 18.8,
@@ -154,7 +154,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.05C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.69C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -179,11 +179,11 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-10-02T03:59:51Z",
+      "updated_at": "2026-10-02T11:51:32Z",
       "sst": {
-        "value_c": 23.27,
+        "value_c": 22.93,
         "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
+        "time": "2026-10-02T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 19.7,
@@ -211,7 +211,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.27C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.93C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -236,11 +236,11 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-10-02T03:59:54Z",
+      "updated_at": "2026-10-02T11:51:34Z",
       "sst": {
-        "value_c": 25.85,
+        "value_c": 25.84,
         "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
+        "time": "2026-10-02T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 20.4,
@@ -268,7 +268,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=25.85C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=25.84C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -293,11 +293,11 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-10-02T03:59:56Z",
+      "updated_at": "2026-10-02T11:51:36Z",
       "sst": {
-        "value_c": 22.39,
+        "value_c": 22.14,
         "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
+        "time": "2026-10-02T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 19.3,
@@ -325,7 +325,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=22.39C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.14C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -350,11 +350,11 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-10-02T03:59:59Z",
+      "updated_at": "2026-10-02T11:51:38Z",
       "sst": {
-        "value_c": 24.84,
+        "value_c": 24.85,
         "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
+        "time": "2026-10-02T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 16.4,
@@ -382,7 +382,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.84C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.85C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -407,11 +407,11 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-10-02T04:00:02Z",
+      "updated_at": "2026-10-02T11:51:40Z",
       "sst": {
-        "value_c": 24.73,
+        "value_c": 24.87,
         "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
+        "time": "2026-10-02T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 20.1,
@@ -421,6 +421,63 @@
         "weather_code": 0,
         "wave_height_m": 0.48,
         "wave_period_s": 3.8
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
+      },
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": true,
+          "message": "168h forecast, sst=25.2"
+        },
+        {
+          "name": "cmems",
+          "ok": true,
+          "message": "sst=24.87C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+        },
+        {
+          "name": "poseidon",
+          "ok": true,
+          "message": "Ionian forecast reachable"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        },
+        {
+          "name": "ceamed",
+          "ok": true,
+          "message": "reference attached (no value parsed)"
+        }
+      ]
+    },
+    {
+      "name": "Zakynthos",
+      "slug": "zakynthos",
+      "region": "ionian",
+      "lat": 37.787,
+      "lon": 20.899,
+      "updated_at": "2026-10-02T11:51:42Z",
+      "sst": {
+        "value_c": 24.73,
+        "source": "cmems",
+        "time": "2026-10-02T00:00:00Z"
+      },
+      "conditions": {
+        "air_temp_c": 20.0,
+        "wind_speed_kn": 9.8,
+        "wind_gust_kn": 18.5,
+        "wind_dir_deg": 9.0,
+        "weather_code": 0,
+        "wave_height_m": 0.52,
+        "wave_period_s": 2.95
       },
       "climate": {
         "anomaly_c": null,
@@ -457,63 +514,6 @@
           "message": "reference attached (no value parsed)"
         }
       ]
-    },
-    {
-      "name": "Zakynthos",
-      "slug": "zakynthos",
-      "region": "ionian",
-      "lat": 37.787,
-      "lon": 20.899,
-      "updated_at": "2026-10-02T04:00:05Z",
-      "sst": {
-        "value_c": 24.94,
-        "source": "cmems",
-        "time": "2026-10-01T00:00:00Z"
-      },
-      "conditions": {
-        "air_temp_c": 20.0,
-        "wind_speed_kn": 9.8,
-        "wind_gust_kn": 18.5,
-        "wind_dir_deg": 9.0,
-        "weather_code": 0,
-        "wave_height_m": 0.52,
-        "wave_period_s": 2.95
-      },
-      "climate": {
-        "anomaly_c": null,
-        "source": "ceamed",
-        "note": "Basin-wide monthly context, not a per-island live value."
-      },
-      "advisories": [
-        "POSEIDON Ionian Sea forecast available — see official bulletin."
-      ],
-      "sources": [
-        {
-          "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=25.2"
-        },
-        {
-          "name": "cmems",
-          "ok": true,
-          "message": "sst=24.94C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
-        },
-        {
-          "name": "poseidon",
-          "ok": true,
-          "message": "Ionian forecast reachable"
-        },
-        {
-          "name": "hnms",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-        },
-        {
-          "name": "ceamed",
-          "ok": true,
-          "message": "reference attached (no value parsed)"
-        }
-      ]
     }
   ],
   "run_sources": [
@@ -525,7 +525,7 @@
     {
       "name": "cmems",
       "ok": true,
-      "message": "sst=24.46C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+      "message": "sst=24.19C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
     },
     {
       "name": "poseidon",
