@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:25:18Z",
+  "generated_at": "2026-10-04T20:51:39Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,7 +8,7 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-10-04T16:24:41Z",
+      "updated_at": "2026-10-04T20:51:08Z",
       "sst": {
         "value_c": 23.46,
         "source": "cmems",
@@ -65,7 +65,7 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-10-04T16:24:59Z",
+      "updated_at": "2026-10-04T20:51:23Z",
       "sst": {
         "value_c": 22.11,
         "source": "cmems",
@@ -122,7 +122,7 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-10-04T16:25:01Z",
+      "updated_at": "2026-10-04T20:51:25Z",
       "sst": {
         "value_c": 22.22,
         "source": "cmems",
@@ -179,7 +179,7 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-10-04T16:25:04Z",
+      "updated_at": "2026-10-04T20:51:27Z",
       "sst": {
         "value_c": 22.37,
         "source": "cmems",
@@ -236,7 +236,7 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-10-04T16:25:06Z",
+      "updated_at": "2026-10-04T20:51:29Z",
       "sst": {
         "value_c": 25.56,
         "source": "cmems",
@@ -293,7 +293,7 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-10-04T16:25:08Z",
+      "updated_at": "2026-10-04T20:51:31Z",
       "sst": {
         "value_c": 21.67,
         "source": "cmems",
@@ -350,7 +350,7 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-10-04T16:25:11Z",
+      "updated_at": "2026-10-04T20:51:33Z",
       "sst": {
         "value_c": 24.12,
         "source": "cmems",
@@ -370,7 +370,9 @@
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
@@ -384,8 +386,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Ionian forecast reachable"
         },
         {
           "name": "hnms",
@@ -405,7 +407,7 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-10-04T16:25:13Z",
+      "updated_at": "2026-10-04T20:51:35Z",
       "sst": {
         "value_c": 24.29,
         "source": "cmems",
@@ -462,7 +464,7 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-10-04T16:25:16Z",
+      "updated_at": "2026-10-04T20:51:36Z",
       "sst": {
         "value_c": 24.16,
         "source": "cmems",
