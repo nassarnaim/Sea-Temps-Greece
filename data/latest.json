@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:53:00Z",
+  "generated_at": "2026-10-06T12:48:52Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,11 +8,11 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-10-06T04:47:44Z",
+      "updated_at": "2026-10-06T12:43:38Z",
       "sst": {
-        "value_c": 23.52,
+        "value_c": 23.62,
         "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
+        "time": "2026-10-06T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 16.4,
@@ -21,7 +21,7 @@
         "wind_dir_deg": 320.0,
         "weather_code": 0,
         "wave_height_m": 0.46,
-        "wave_period_s": 4.2
+        "wave_period_s": 3.8
       },
       "climate": {
         "anomaly_c": null,
@@ -38,12 +38,12 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.52C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=23.62C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
           "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280a81b10>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3841a10>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
         },
         {
           "name": "hnms",
@@ -63,11 +63,11 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-10-06T04:48:39Z",
+      "updated_at": "2026-10-06T12:44:28Z",
       "sst": {
-        "value_c": 21.69,
+        "value_c": 21.65,
         "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
+        "time": "2026-10-06T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 19.7,
@@ -75,8 +75,8 @@
         "wind_gust_kn": 15.4,
         "wind_dir_deg": 340.0,
         "weather_code": 0,
-        "wave_height_m": 0.88,
-        "wave_period_s": 4.0
+        "wave_height_m": 0.86,
+        "wave_period_s": 4.05
       },
       "climate": {
         "anomaly_c": null,
@@ -93,12 +93,12 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=21.69C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=21.65C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
           "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280a9ded0>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3862050>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
         },
         {
           "name": "hnms",
@@ -118,11 +118,11 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-10-06T04:49:11Z",
+      "updated_at": "2026-10-06T12:45:05Z",
       "sst": {
-        "value_c": 21.97,
+        "value_c": 22.1,
         "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
+        "time": "2026-10-06T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 18.0,
@@ -130,8 +130,8 @@
         "wind_gust_kn": 17.5,
         "wind_dir_deg": 339.0,
         "weather_code": 0,
-        "wave_height_m": 0.9,
-        "wave_period_s": 4.3
+        "wave_height_m": 0.88,
+        "wave_period_s": 4.4
       },
       "climate": {
         "anomaly_c": null,
@@ -148,12 +148,12 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=21.97C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.1C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
           "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280a9e890>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3861990>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
         },
         {
           "name": "hnms",
@@ -173,11 +173,11 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-10-06T04:49:43Z",
+      "updated_at": "2026-10-06T12:45:37Z",
       "sst": {
-        "value_c": 22.12,
+        "value_c": 22.1,
         "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
+        "time": "2026-10-06T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 18.4,
@@ -185,8 +185,8 @@
         "wind_gust_kn": 17.3,
         "wind_dir_deg": 317.0,
         "weather_code": 0,
-        "wave_height_m": 0.98,
-        "wave_period_s": 4.3
+        "wave_height_m": 0.96,
+        "wave_period_s": 4.35
       },
       "climate": {
         "anomaly_c": null,
@@ -203,12 +203,12 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=22.12C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.1C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
           "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280aa01d0>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3864110>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
         },
         {
           "name": "hnms",
@@ -228,11 +228,11 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-10-06T04:50:16Z",
+      "updated_at": "2026-10-06T12:46:09Z",
       "sst": {
-        "value_c": 25.05,
+        "value_c": 25.33,
         "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
+        "time": "2026-10-06T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 21.0,
@@ -240,8 +240,8 @@
         "wind_gust_kn": 10.1,
         "wind_dir_deg": 284.0,
         "weather_code": 2,
-        "wave_height_m": 0.34,
-        "wave_period_s": 4.35
+        "wave_height_m": 0.36,
+        "wave_period_s": 3.8
       },
       "climate": {
         "anomaly_c": null,
@@ -258,12 +258,12 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=25.05C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=25.33C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
           "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280aa3510>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3867890>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
         },
         {
           "name": "hnms",
@@ -283,11 +283,11 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-10-06T04:50:49Z",
+      "updated_at": "2026-10-06T12:46:40Z",
       "sst": {
-        "value_c": 21.26,
+        "value_c": 21.32,
         "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
+        "time": "2026-10-06T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 18.8,
@@ -295,8 +295,8 @@
         "wind_gust_kn": 15.9,
         "wind_dir_deg": 348.0,
         "weather_code": 1,
-        "wave_height_m": 1.16,
-        "wave_period_s": 4.6
+        "wave_height_m": 1.1,
+        "wave_period_s": 4.55
       },
       "climate": {
         "anomaly_c": null,
@@ -308,17 +308,17 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=22.3"
+          "message": "168h forecast, sst=22.4"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=21.26C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=21.32C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
           "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280a9e9d0>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3863d10>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
         },
         {
           "name": "hnms",
@@ -338,11 +338,11 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-10-06T04:51:22Z",
+      "updated_at": "2026-10-06T12:47:14Z",
       "sst": {
-        "value_c": 23.97,
+        "value_c": 24.11,
         "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
+        "time": "2026-10-06T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 15.1,
@@ -350,63 +350,8 @@
         "wind_gust_kn": 5.2,
         "wind_dir_deg": 49.0,
         "weather_code": 0,
-        "wave_height_m": 0.26,
-        "wave_period_s": 3.5
-      },
-      "climate": {
-        "anomaly_c": null,
-        "source": "ceamed",
-        "note": "Basin-wide monthly context, not a per-island live value."
-      },
-      "advisories": [],
-      "sources": [
-        {
-          "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=24.7"
-        },
-        {
-          "name": "cmems",
-          "ok": true,
-          "message": "sst=23.97C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
-        },
-        {
-          "name": "poseidon",
-          "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280a828d0>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
-        },
-        {
-          "name": "hnms",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-        },
-        {
-          "name": "ceamed",
-          "ok": true,
-          "message": "reference attached (no value parsed)"
-        }
-      ]
-    },
-    {
-      "name": "Corfu",
-      "slug": "corfu",
-      "region": "ionian",
-      "lat": 39.6243,
-      "lon": 19.9217,
-      "updated_at": "2026-10-06T04:51:56Z",
-      "sst": {
-        "value_c": 24.11,
-        "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
-      },
-      "conditions": {
-        "air_temp_c": 16.6,
-        "wind_speed_kn": 0.6,
-        "wind_gust_kn": 1.9,
-        "wind_dir_deg": 342.0,
-        "weather_code": 1,
-        "wave_height_m": 0.28,
-        "wave_period_s": 3.35
+        "wave_height_m": 0.22,
+        "wave_period_s": 3.55
       },
       "climate": {
         "anomaly_c": null,
@@ -428,7 +373,62 @@
         {
           "name": "poseidon",
           "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280aa0050>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3840510>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+        },
+        {
+          "name": "hnms",
+          "ok": false,
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        },
+        {
+          "name": "ceamed",
+          "ok": true,
+          "message": "reference attached (no value parsed)"
+        }
+      ]
+    },
+    {
+      "name": "Corfu",
+      "slug": "corfu",
+      "region": "ionian",
+      "lat": 39.6243,
+      "lon": 19.9217,
+      "updated_at": "2026-10-06T12:47:46Z",
+      "sst": {
+        "value_c": 24.17,
+        "source": "cmems",
+        "time": "2026-10-06T00:00:00Z"
+      },
+      "conditions": {
+        "air_temp_c": 16.6,
+        "wind_speed_kn": 0.6,
+        "wind_gust_kn": 1.9,
+        "wind_dir_deg": 342.0,
+        "weather_code": 1,
+        "wave_height_m": 0.24,
+        "wave_period_s": 3.0
+      },
+      "climate": {
+        "anomaly_c": null,
+        "source": "ceamed",
+        "note": "Basin-wide monthly context, not a per-island live value."
+      },
+      "advisories": [],
+      "sources": [
+        {
+          "name": "openmeteo",
+          "ok": true,
+          "message": "168h forecast, sst=24.7"
+        },
+        {
+          "name": "cmems",
+          "ok": true,
+          "message": "sst=24.17C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+        },
+        {
+          "name": "poseidon",
+          "ok": false,
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3865c90>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
         },
         {
           "name": "hnms",
@@ -448,11 +448,11 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-10-06T04:52:28Z",
+      "updated_at": "2026-10-06T12:48:19Z",
       "sst": {
-        "value_c": 24.13,
+        "value_c": 24.27,
         "source": "cmems",
-        "time": "2026-10-05T00:00:00Z"
+        "time": "2026-10-06T00:00:00Z"
       },
       "conditions": {
         "air_temp_c": 15.6,
@@ -460,8 +460,8 @@
         "wind_gust_kn": 6.2,
         "wind_dir_deg": 283.0,
         "weather_code": 0,
-        "wave_height_m": 0.24,
-        "wave_period_s": 3.65
+        "wave_height_m": 0.22,
+        "wave_period_s": 3.4
       },
       "climate": {
         "anomaly_c": null,
@@ -478,12 +478,12 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.13C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=24.27C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
           "ok": false,
-          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280aa15d0>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+          "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3864510>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
         },
         {
           "name": "hnms",
@@ -507,12 +507,12 @@
     {
       "name": "cmems",
       "ok": true,
-      "message": "sst=23.52C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+      "message": "sst=23.62C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
     },
     {
       "name": "poseidon",
       "ok": false,
-      "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f9280a81b10>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
+      "message": "ConnectTimeout: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by ConnectTimeoutError(<HTTPSConnection(host='poseidon.hcmr.gr', port=443) at 0x7f34f3841a10>, 'Connection to poseidon.hcmr.gr timed out. (connect timeout=30)'))"
     },
     {
       "name": "hnms",
