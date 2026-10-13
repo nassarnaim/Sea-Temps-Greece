@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:09:58Z",
+  "generated_at": "2026-10-13T13:32:37Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,20 +8,20 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-10-13T00:07:11Z",
+      "updated_at": "2026-10-13T13:32:00Z",
       "sst": {
-        "value_c": 23.61,
+        "value_c": 23.28,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 18.8,
-        "wind_speed_kn": 1.6,
-        "wind_gust_kn": 3.1,
-        "wind_dir_deg": 330.0,
+        "air_temp_c": 17.9,
+        "wind_speed_kn": 1.8,
+        "wind_gust_kn": 2.9,
+        "wind_dir_deg": 328.0,
         "weather_code": 3,
         "wave_height_m": 0.14,
-        "wave_period_s": 3.25
+        "wave_period_s": 3.9
       },
       "climate": {
         "anomaly_c": null,
@@ -40,7 +40,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.61C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=23.28C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -65,20 +65,20 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-10-13T00:07:26Z",
+      "updated_at": "2026-10-13T13:32:18Z",
       "sst": {
-        "value_c": 22.27,
+        "value_c": 22.2,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 20.5,
-        "wind_speed_kn": 2.6,
-        "wind_gust_kn": 5.1,
-        "wind_dir_deg": 117.0,
+        "air_temp_c": 19.3,
+        "wind_speed_kn": 2.5,
+        "wind_gust_kn": 4.7,
+        "wind_dir_deg": 72.0,
         "weather_code": 3,
-        "wave_height_m": 0.56,
-        "wave_period_s": 5.4
+        "wave_height_m": 0.78,
+        "wave_period_s": 6.2
       },
       "climate": {
         "anomaly_c": null,
@@ -97,7 +97,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=22.27C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.2C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -122,20 +122,20 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-10-13T00:07:29Z",
+      "updated_at": "2026-10-13T13:32:20Z",
       "sst": {
-        "value_c": 22.58,
+        "value_c": 22.22,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 18.9,
-        "wind_speed_kn": 1.6,
-        "wind_gust_kn": 3.1,
-        "wind_dir_deg": 97.0,
+        "air_temp_c": 17.5,
+        "wind_speed_kn": 1.8,
+        "wind_gust_kn": 4.1,
+        "wind_dir_deg": 108.0,
         "weather_code": 3,
-        "wave_height_m": 0.76,
-        "wave_period_s": 5.3
+        "wave_height_m": 0.84,
+        "wave_period_s": 5.65
       },
       "climate": {
         "anomaly_c": null,
@@ -154,7 +154,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=22.58C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.22C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -179,20 +179,20 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-10-13T00:07:31Z",
+      "updated_at": "2026-10-13T13:32:23Z",
       "sst": {
-        "value_c": 22.41,
+        "value_c": 22.33,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.4,
-        "wind_speed_kn": 0.0,
-        "wind_gust_kn": 4.1,
-        "wind_dir_deg": 270.0,
+        "air_temp_c": 19.0,
+        "wind_speed_kn": 1.7,
+        "wind_gust_kn": 4.5,
+        "wind_dir_deg": 291.0,
         "weather_code": 3,
-        "wave_height_m": 1.04,
-        "wave_period_s": 5.6
+        "wave_height_m": 0.98,
+        "wave_period_s": 6.1
       },
       "climate": {
         "anomaly_c": null,
@@ -211,7 +211,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=22.41C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=22.33C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -236,20 +236,20 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-10-13T00:07:34Z",
+      "updated_at": "2026-10-13T13:32:25Z",
       "sst": {
-        "value_c": 25.2,
+        "value_c": 25.33,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.8,
-        "wind_speed_kn": 0.6,
-        "wind_gust_kn": 1.7,
-        "wind_dir_deg": 90.0,
+        "air_temp_c": 21.0,
+        "wind_speed_kn": 1.0,
+        "wind_gust_kn": 1.4,
+        "wind_dir_deg": 112.0,
         "weather_code": 3,
         "wave_height_m": 0.42,
-        "wave_period_s": 5.4
+        "wave_period_s": 5.55
       },
       "climate": {
         "anomaly_c": null,
@@ -268,7 +268,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=25.2C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=25.33C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -293,20 +293,20 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-10-13T00:07:36Z",
+      "updated_at": "2026-10-13T13:32:28Z",
       "sst": {
-        "value_c": 21.84,
+        "value_c": 21.76,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 18.8,
-        "wind_speed_kn": 2.7,
-        "wind_gust_kn": 4.3,
-        "wind_dir_deg": 120.0,
+        "air_temp_c": 18.0,
+        "wind_speed_kn": 1.8,
+        "wind_gust_kn": 3.9,
+        "wind_dir_deg": 122.0,
         "weather_code": 3,
-        "wave_height_m": 0.48,
-        "wave_period_s": 5.2
+        "wave_height_m": 0.58,
+        "wave_period_s": 5.85
       },
       "climate": {
         "anomaly_c": null,
@@ -325,7 +325,7 @@
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=21.84C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=21.76C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -350,20 +350,20 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-10-13T00:08:05Z",
+      "updated_at": "2026-10-13T13:32:30Z",
       "sst": {
-        "value_c": 23.91,
+        "value_c": 23.87,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": null,
-        "wind_speed_kn": null,
-        "wind_gust_kn": null,
-        "wind_dir_deg": null,
-        "weather_code": null,
-        "wave_height_m": null,
-        "wave_period_s": null
+        "air_temp_c": 14.4,
+        "wind_speed_kn": 0.8,
+        "wind_gust_kn": 9.5,
+        "wind_dir_deg": 315.0,
+        "weather_code": 63,
+        "wave_height_m": 0.66,
+        "wave_period_s": 4.7
       },
       "climate": {
         "anomaly_c": null,
@@ -376,13 +376,13 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": false,
-          "message": "ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=38.175&longitude=20.565&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)\"))"
+          "ok": true,
+          "message": "168h forecast, sst=24.5"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.91C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=23.87C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -407,20 +407,20 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-10-13T00:09:14Z",
+      "updated_at": "2026-10-13T13:32:32Z",
       "sst": {
-        "value_c": 23.33,
+        "value_c": 23.24,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": null,
-        "wind_speed_kn": null,
-        "wind_gust_kn": null,
-        "wind_dir_deg": null,
-        "weather_code": null,
-        "wave_height_m": null,
-        "wave_period_s": null
+        "air_temp_c": 18.0,
+        "wind_speed_kn": 0.4,
+        "wind_gust_kn": 6.0,
+        "wind_dir_deg": 207.0,
+        "weather_code": 61,
+        "wave_height_m": 0.52,
+        "wave_period_s": 4.55
       },
       "climate": {
         "anomaly_c": null,
@@ -433,13 +433,13 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": false,
-          "message": "HTTPError: 500 Server Error: Internal Server Error for url: https://api.open-meteo.com/v1/forecast?latitude=39.6243&longitude=19.9217&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "ok": true,
+          "message": "168h forecast, sst=24.1"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=23.33C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=23.24C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -464,20 +464,20 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-10-13T00:09:49Z",
+      "updated_at": "2026-10-13T13:32:35Z",
       "sst": {
-        "value_c": 24.12,
+        "value_c": 23.87,
         "source": "cmems",
-        "time": "2026-10-12T00:00:00Z"
+        "time": "2026-10-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": null,
-        "wind_speed_kn": null,
-        "wind_gust_kn": null,
-        "wind_dir_deg": null,
-        "weather_code": null,
-        "wave_height_m": null,
-        "wave_period_s": null
+        "air_temp_c": 18.6,
+        "wind_speed_kn": 1.7,
+        "wind_gust_kn": 4.1,
+        "wind_dir_deg": 270.0,
+        "weather_code": 3,
+        "wave_height_m": 0.72,
+        "wave_period_s": 4.8
       },
       "climate": {
         "anomaly_c": null,
@@ -490,13 +490,13 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": false,
-          "message": "HTTPError: 500 Server Error: Internal Server Error for url: https://api.open-meteo.com/v1/forecast?latitude=37.787&longitude=20.899&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7"
+          "ok": true,
+          "message": "168h forecast, sst=24.9"
         },
         {
           "name": "cmems",
           "ok": true,
-          "message": "sst=24.12C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+          "message": "sst=23.87C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
         },
         {
           "name": "poseidon",
@@ -525,7 +525,7 @@
     {
       "name": "cmems",
       "ok": true,
-      "message": "sst=23.61C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
+      "message": "sst=23.28C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2"
     },
     {
       "name": "poseidon",
