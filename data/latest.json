@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:14:56Z",
+  "generated_at": "2026-10-22T03:14:21Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,32 +8,34 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-10-21T21:14:07Z",
+      "updated_at": "2026-10-22T03:13:38Z",
       "sst": {
         "value_c": 22.51,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 14.1,
-        "wind_speed_kn": 2.1,
-        "wind_gust_kn": 3.1,
-        "wind_dir_deg": 355.0,
-        "weather_code": 1,
-        "wave_height_m": 0.02,
-        "wave_period_s": 2.15
+        "air_temp_c": 16.5,
+        "wind_speed_kn": 2.3,
+        "wind_gust_kn": 4.7,
+        "wind_dir_deg": 5.0,
+        "weather_code": 45,
+        "wave_height_m": 0.16,
+        "wave_period_s": 2.5
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=22.3"
+          "message": "168h forecast, sst=22.4"
         },
         {
           "name": "cmems",
@@ -42,8 +44,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
@@ -63,27 +65,29 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-10-21T21:14:23Z",
+      "updated_at": "2026-10-22T03:13:59Z",
       "sst": {
         "value_c": 20.56,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 15.3,
-        "wind_speed_kn": 1.9,
-        "wind_gust_kn": 2.3,
-        "wind_dir_deg": 307.0,
-        "weather_code": 0,
-        "wave_height_m": 0.04,
-        "wave_period_s": 3.5
+        "air_temp_c": 18.2,
+        "wind_speed_kn": 3.1,
+        "wind_gust_kn": 12.2,
+        "wind_dir_deg": 210.0,
+        "weather_code": 3,
+        "wave_height_m": 0.26,
+        "wave_period_s": 2.7
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
@@ -97,8 +101,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
@@ -118,32 +122,34 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-10-21T21:14:30Z",
+      "updated_at": "2026-10-22T03:14:03Z",
       "sst": {
         "value_c": 21.32,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 14.4,
-        "wind_speed_kn": 0.8,
-        "wind_gust_kn": 1.4,
-        "wind_dir_deg": 315.0,
-        "weather_code": 0,
-        "wave_height_m": 0.04,
-        "wave_period_s": 4.0
+        "air_temp_c": 16.8,
+        "wind_speed_kn": 2.6,
+        "wind_gust_kn": 11.3,
+        "wind_dir_deg": 193.0,
+        "weather_code": 3,
+        "wave_height_m": 0.16,
+        "wave_period_s": 2.75
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=20.9"
+          "message": "168h forecast, sst=20.8"
         },
         {
           "name": "cmems",
@@ -152,8 +158,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
@@ -173,32 +179,34 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-10-21T21:14:34Z",
+      "updated_at": "2026-10-22T03:14:05Z",
       "sst": {
         "value_c": 21.39,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 16.5,
-        "wind_speed_kn": 2.6,
-        "wind_gust_kn": 6.6,
-        "wind_dir_deg": 318.0,
-        "weather_code": 0,
-        "wave_height_m": 0.08,
-        "wave_period_s": 3.3
+        "air_temp_c": 16.7,
+        "wind_speed_kn": 2.1,
+        "wind_gust_kn": 5.4,
+        "wind_dir_deg": 265.0,
+        "weather_code": 1,
+        "wave_height_m": 0.04,
+        "wave_period_s": 4.55
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=21.8"
+          "message": "168h forecast, sst=21.9"
         },
         {
           "name": "cmems",
@@ -207,8 +215,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
@@ -228,32 +236,34 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-10-21T21:14:38Z",
+      "updated_at": "2026-10-22T03:14:08Z",
       "sst": {
         "value_c": 24.03,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.7,
-        "wind_speed_kn": 3.8,
-        "wind_gust_kn": 6.2,
-        "wind_dir_deg": 282.0,
-        "weather_code": 0,
-        "wave_height_m": 0.1,
-        "wave_period_s": 3.15
+        "air_temp_c": 20.5,
+        "wind_speed_kn": 4.7,
+        "wind_gust_kn": 10.5,
+        "wind_dir_deg": 277.0,
+        "weather_code": 1,
+        "wave_height_m": 0.14,
+        "wave_period_s": 2.65
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=24.0"
+          "message": "168h forecast, sst=23.9"
         },
         {
           "name": "cmems",
@@ -262,8 +272,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
@@ -283,27 +293,29 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-10-21T21:14:43Z",
+      "updated_at": "2026-10-22T03:14:11Z",
       "sst": {
         "value_c": 20.67,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 15.5,
-        "wind_speed_kn": 0.5,
-        "wind_gust_kn": 3.9,
-        "wind_dir_deg": 225.0,
-        "weather_code": 0,
+        "air_temp_c": 14.3,
+        "wind_speed_kn": 2.8,
+        "wind_gust_kn": 7.0,
+        "wind_dir_deg": 164.0,
+        "weather_code": 3,
         "wave_height_m": 0.04,
-        "wave_period_s": 3.1
+        "wave_period_s": 3.25
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Aegean Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
@@ -317,8 +329,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Aegean forecast reachable"
         },
         {
           "name": "hnms",
@@ -338,27 +350,29 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-10-21T21:14:47Z",
+      "updated_at": "2026-10-22T03:14:13Z",
       "sst": {
         "value_c": 22.83,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 13.2,
-        "wind_speed_kn": 3.0,
-        "wind_gust_kn": 12.4,
-        "wind_dir_deg": 191.0,
-        "weather_code": 0,
-        "wave_height_m": 0.5,
-        "wave_period_s": 4.7
+        "air_temp_c": 17.7,
+        "wind_speed_kn": 6.0,
+        "wind_gust_kn": 28.0,
+        "wind_dir_deg": 205.0,
+        "weather_code": 3,
+        "wave_height_m": 1.52,
+        "wave_period_s": 5.55
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
@@ -372,8 +386,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Ionian forecast reachable"
         },
         {
           "name": "hnms",
@@ -393,32 +407,34 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-10-21T21:14:51Z",
+      "updated_at": "2026-10-22T03:14:16Z",
       "sst": {
         "value_c": 22.3,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.1,
-        "wind_speed_kn": 2.7,
-        "wind_gust_kn": 5.2,
-        "wind_dir_deg": 98.0,
-        "weather_code": 2,
-        "wave_height_m": 0.56,
-        "wave_period_s": 4.95
+        "air_temp_c": 19.0,
+        "wind_speed_kn": 3.9,
+        "wind_gust_kn": 9.7,
+        "wind_dir_deg": 96.0,
+        "weather_code": 95,
+        "wave_height_m": 1.7,
+        "wave_period_s": 6.1
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=23.2"
+          "message": "168h forecast, sst=23.3"
         },
         {
           "name": "cmems",
@@ -427,8 +443,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+          "ok": true,
+          "message": "Ionian forecast reachable"
         },
         {
           "name": "hnms",
@@ -448,32 +464,34 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-10-21T21:14:55Z",
+      "updated_at": "2026-10-22T03:14:19Z",
       "sst": {
         "value_c": 22.92,
         "source": "cmems",
         "time": "2026-10-21T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.0,
-        "wind_speed_kn": 5.1,
-        "wind_gust_kn": 8.4,
-        "wind_dir_deg": 176.0,
-        "weather_code": 2,
-        "wave_height_m": 0.42,
-        "wave_period_s": 4.65
+        "air_temp_c": 21.5,
+        "wind_speed_kn": 14.3,
+        "wind_gust_kn": 24.5,
+        "wind_dir_deg": 169.0,
+        "weather_code": 3,
+        "wave_height_m": 1.38,
+        "wave_period_s": 5.15
       },
       "climate": {
         "anomaly_c": null,
         "source": "ceamed",
         "note": "Basin-wide monthly context, not a per-island live value."
       },
-      "advisories": [],
+      "advisories": [
+        "POSEIDON Ionian Sea forecast available — see official bulletin."
+      ],
       "sources": [
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=23.9"
+          "message": "168h forecast, sst=23.6"
         },
         {
           "name": "cmems",
@@ -482,8 +500,8 @@
         },
         {
           "name": "poseidon",
-          "ok": false,
-          "message": "ConnectionError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by NewConnectionError(\"HTTPSConnection(host='poseidon.hcmr.gr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "ok": true,
+          "message": "Ionian forecast reachable"
         },
         {
           "name": "hnms",
@@ -502,7 +520,7 @@
     {
       "name": "openmeteo",
       "ok": true,
-      "message": "168h forecast, sst=22.3"
+      "message": "168h forecast, sst=22.4"
     },
     {
       "name": "cmems",
@@ -511,8 +529,8 @@
     },
     {
       "name": "poseidon",
-      "ok": false,
-      "message": "SSLError: HTTPSConnectionPool(host='poseidon.hcmr.gr', port=443): Max retries exceeded with url: /services/forecast (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+      "ok": true,
+      "message": "Aegean forecast reachable"
     },
     {
       "name": "hnms",
