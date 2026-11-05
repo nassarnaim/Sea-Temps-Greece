@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:11:38Z",
+  "generated_at": "2026-11-05T05:01:51Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,20 +8,20 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-11-04T23:10:55Z",
+      "updated_at": "2026-11-05T05:01:16Z",
       "sst": {
         "value_c": 21.87,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 17.3,
-        "wind_speed_kn": 6.5,
-        "wind_gust_kn": 10.1,
-        "wind_dir_deg": 311.0,
-        "weather_code": 0,
-        "wave_height_m": 0.4,
-        "wave_period_s": 4.65
+        "air_temp_c": 16.6,
+        "wind_speed_kn": 1.4,
+        "wind_gust_kn": 4.3,
+        "wind_dir_deg": 315.0,
+        "weather_code": 3,
+        "wave_height_m": 0.52,
+        "wave_period_s": 3.7
       },
       "climate": {
         "anomaly_c": null,
@@ -35,7 +35,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=21.5"
+          "message": "168h forecast, sst=21.4"
         },
         {
           "name": "cmems",
@@ -50,7 +50,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -65,20 +65,20 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-11-04T23:11:16Z",
+      "updated_at": "2026-11-05T05:01:32Z",
       "sst": {
         "value_c": 20.75,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.0,
-        "wind_speed_kn": 5.3,
-        "wind_gust_kn": 17.5,
-        "wind_dir_deg": 266.0,
-        "weather_code": 1,
-        "wave_height_m": 1.38,
-        "wave_period_s": 5.9
+        "air_temp_c": 16.5,
+        "wind_speed_kn": 10.9,
+        "wind_gust_kn": 22.0,
+        "wind_dir_deg": 2.0,
+        "weather_code": 3,
+        "wave_height_m": 1.1,
+        "wave_period_s": 4.2
       },
       "climate": {
         "anomaly_c": null,
@@ -92,7 +92,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=20.6"
+          "message": "168h forecast, sst=20.5"
         },
         {
           "name": "cmems",
@@ -107,7 +107,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -122,20 +122,20 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-11-04T23:11:19Z",
+      "updated_at": "2026-11-05T05:01:35Z",
       "sst": {
         "value_c": 20.86,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 18.1,
-        "wind_speed_kn": 11.6,
-        "wind_gust_kn": 23.7,
-        "wind_dir_deg": 260.0,
-        "weather_code": 2,
-        "wave_height_m": 1.58,
-        "wave_period_s": 5.9
+        "air_temp_c": 16.1,
+        "wind_speed_kn": 10.2,
+        "wind_gust_kn": 19.0,
+        "wind_dir_deg": 14.0,
+        "weather_code": 3,
+        "wave_height_m": 0.9,
+        "wave_period_s": 4.15
       },
       "climate": {
         "anomaly_c": null,
@@ -149,7 +149,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=20.8"
+          "message": "168h forecast, sst=20.4"
         },
         {
           "name": "cmems",
@@ -164,7 +164,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -179,20 +179,20 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-11-04T23:11:22Z",
+      "updated_at": "2026-11-05T05:01:37Z",
       "sst": {
         "value_c": 21.3,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 18.7,
-        "wind_speed_kn": 12.4,
-        "wind_gust_kn": 26.8,
-        "wind_dir_deg": 250.0,
-        "weather_code": 2,
-        "wave_height_m": 2.08,
-        "wave_period_s": 7.0
+        "air_temp_c": 17.0,
+        "wind_speed_kn": 11.6,
+        "wind_gust_kn": 23.9,
+        "wind_dir_deg": 339.0,
+        "weather_code": 3,
+        "wave_height_m": 0.94,
+        "wave_period_s": 4.6
       },
       "climate": {
         "anomaly_c": null,
@@ -206,7 +206,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=21.3"
+          "message": "168h forecast, sst=21.1"
         },
         {
           "name": "cmems",
@@ -221,7 +221,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -236,20 +236,20 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-11-04T23:11:24Z",
+      "updated_at": "2026-11-05T05:01:40Z",
       "sst": {
         "value_c": 23.17,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 18.4,
-        "wind_speed_kn": 6.8,
-        "wind_gust_kn": 11.9,
-        "wind_dir_deg": 51.0,
+        "air_temp_c": 19.2,
+        "wind_speed_kn": 8.8,
+        "wind_gust_kn": 17.7,
+        "wind_dir_deg": 303.0,
         "weather_code": 2,
-        "wave_height_m": 0.58,
-        "wave_period_s": 6.4
+        "wave_height_m": 0.66,
+        "wave_period_s": 4.55
       },
       "climate": {
         "anomaly_c": null,
@@ -263,7 +263,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=23.4"
+          "message": "168h forecast, sst=23.3"
         },
         {
           "name": "cmems",
@@ -278,7 +278,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -293,20 +293,20 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-11-04T23:11:27Z",
+      "updated_at": "2026-11-05T05:01:42Z",
       "sst": {
         "value_c": 20.78,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.0,
-        "wind_speed_kn": 8.9,
-        "wind_gust_kn": 19.2,
-        "wind_dir_deg": 250.0,
-        "weather_code": 2,
-        "wave_height_m": 1.26,
-        "wave_period_s": 5.3
+        "air_temp_c": 16.8,
+        "wind_speed_kn": 11.1,
+        "wind_gust_kn": 21.6,
+        "wind_dir_deg": 359.0,
+        "weather_code": 3,
+        "wave_height_m": 1.08,
+        "wave_period_s": 4.4
       },
       "climate": {
         "anomaly_c": null,
@@ -320,7 +320,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=20.0"
+          "message": "168h forecast, sst=19.8"
         },
         {
           "name": "cmems",
@@ -335,7 +335,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -350,20 +350,20 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-11-04T23:11:30Z",
+      "updated_at": "2026-11-05T05:01:45Z",
       "sst": {
         "value_c": 21.51,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 12.8,
-        "wind_speed_kn": 5.1,
-        "wind_gust_kn": 27.2,
-        "wind_dir_deg": 317.0,
-        "weather_code": 2,
-        "wave_height_m": 2.04,
-        "wave_period_s": 6.6
+        "air_temp_c": 10.8,
+        "wind_speed_kn": 2.6,
+        "wind_gust_kn": 8.9,
+        "wind_dir_deg": 9.0,
+        "weather_code": 3,
+        "wave_height_m": 0.76,
+        "wave_period_s": 4.55
       },
       "climate": {
         "anomaly_c": null,
@@ -377,7 +377,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=21.7"
+          "message": "168h forecast, sst=21.6"
         },
         {
           "name": "cmems",
@@ -392,7 +392,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -407,20 +407,20 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-11-04T23:11:32Z",
+      "updated_at": "2026-11-05T05:01:47Z",
       "sst": {
         "value_c": 20.78,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 15.3,
-        "wind_speed_kn": 1.7,
-        "wind_gust_kn": 3.7,
-        "wind_dir_deg": 291.0,
-        "weather_code": 0,
-        "wave_height_m": 1.46,
-        "wave_period_s": 5.95
+        "air_temp_c": 14.2,
+        "wind_speed_kn": 0.8,
+        "wind_gust_kn": 1.7,
+        "wind_dir_deg": 45.0,
+        "weather_code": 2,
+        "wave_height_m": 0.72,
+        "wave_period_s": 4.75
       },
       "climate": {
         "anomaly_c": null,
@@ -449,7 +449,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -464,20 +464,20 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-11-04T23:11:35Z",
+      "updated_at": "2026-11-05T05:01:49Z",
       "sst": {
         "value_c": 21.57,
         "source": "cmems",
         "time": "2026-11-04T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 16.8,
-        "wind_speed_kn": 4.7,
-        "wind_gust_kn": 8.2,
-        "wind_dir_deg": 305.0,
-        "weather_code": 1,
-        "wave_height_m": 2.16,
-        "wave_period_s": 6.85
+        "air_temp_c": 15.3,
+        "wind_speed_kn": 3.6,
+        "wind_gust_kn": 6.4,
+        "wind_dir_deg": 311.0,
+        "weather_code": 3,
+        "wave_height_m": 0.72,
+        "wave_period_s": 4.85
       },
       "climate": {
         "anomaly_c": null,
@@ -491,7 +491,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=22.3"
+          "message": "168h forecast, sst=22.2"
         },
         {
           "name": "cmems",
@@ -506,7 +506,7 @@
         {
           "name": "hnms",
           "ok": false,
-          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+          "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
         },
         {
           "name": "ceamed",
@@ -520,7 +520,7 @@
     {
       "name": "openmeteo",
       "ok": true,
-      "message": "168h forecast, sst=21.5"
+      "message": "168h forecast, sst=21.4"
     },
     {
       "name": "cmems",
@@ -535,7 +535,7 @@
     {
       "name": "hnms",
       "ok": false,
-      "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"
+      "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
       "name": "ceamed",
