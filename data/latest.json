@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T13:31:58Z",
+  "generated_at": "2026-11-12T00:01:20Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,20 +8,20 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-11-11T13:31:27Z",
+      "updated_at": "2026-11-12T00:00:48Z",
       "sst": {
         "value_c": 21.22,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 15.3,
-        "wind_speed_kn": 1.8,
-        "wind_gust_kn": 2.9,
-        "wind_dir_deg": 347.0,
-        "weather_code": 2,
-        "wave_height_m": 0.12,
-        "wave_period_s": 4.3
+        "air_temp_c": 17.3,
+        "wind_speed_kn": 1.7,
+        "wind_gust_kn": 2.5,
+        "wind_dir_deg": 27.0,
+        "weather_code": 1,
+        "wave_height_m": 0.28,
+        "wave_period_s": 3.6
       },
       "climate": {
         "anomaly_c": null,
@@ -65,20 +65,20 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-11-11T13:31:42Z",
+      "updated_at": "2026-11-12T00:01:02Z",
       "sst": {
         "value_c": 20.07,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 18.2,
-        "wind_speed_kn": 4.4,
-        "wind_gust_kn": 11.7,
-        "wind_dir_deg": 218.0,
-        "weather_code": 3,
-        "wave_height_m": 0.48,
-        "wave_period_s": 4.9
+        "air_temp_c": 20.1,
+        "wind_speed_kn": 9.1,
+        "wind_gust_kn": 24.5,
+        "wind_dir_deg": 236.0,
+        "weather_code": 2,
+        "wave_height_m": 1.44,
+        "wave_period_s": 5.05
       },
       "climate": {
         "anomaly_c": null,
@@ -92,7 +92,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=18.7"
+          "message": "168h forecast, sst=18.8"
         },
         {
           "name": "cmems",
@@ -122,20 +122,20 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-11-11T13:31:44Z",
+      "updated_at": "2026-11-12T00:01:05Z",
       "sst": {
         "value_c": 20.21,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 17.8,
-        "wind_speed_kn": 6.8,
-        "wind_gust_kn": 15.9,
-        "wind_dir_deg": 250.0,
-        "weather_code": 3,
-        "wave_height_m": 0.78,
-        "wave_period_s": 4.55
+        "air_temp_c": 19.2,
+        "wind_speed_kn": 12.6,
+        "wind_gust_kn": 34.6,
+        "wind_dir_deg": 233.0,
+        "weather_code": 2,
+        "wave_height_m": 1.4,
+        "wave_period_s": 4.9
       },
       "climate": {
         "anomaly_c": null,
@@ -149,7 +149,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=19.6"
+          "message": "168h forecast, sst=19.8"
         },
         {
           "name": "cmems",
@@ -179,20 +179,20 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-11-11T13:31:46Z",
+      "updated_at": "2026-11-12T00:01:07Z",
       "sst": {
         "value_c": 20.47,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 18.2,
-        "wind_speed_kn": 7.8,
-        "wind_gust_kn": 16.7,
-        "wind_dir_deg": 271.0,
-        "weather_code": 2,
-        "wave_height_m": 0.72,
-        "wave_period_s": 4.75
+        "air_temp_c": 19.2,
+        "wind_speed_kn": 6.2,
+        "wind_gust_kn": 15.7,
+        "wind_dir_deg": 208.0,
+        "weather_code": 1,
+        "wave_height_m": 1.26,
+        "wave_period_s": 5.05
       },
       "climate": {
         "anomaly_c": null,
@@ -206,7 +206,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=20.3"
+          "message": "168h forecast, sst=20.4"
         },
         {
           "name": "cmems",
@@ -236,20 +236,20 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-11-11T13:31:48Z",
+      "updated_at": "2026-11-12T00:01:09Z",
       "sst": {
         "value_c": 22.55,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 17.3,
-        "wind_speed_kn": 1.1,
-        "wind_gust_kn": 1.4,
-        "wind_dir_deg": 45.0,
-        "weather_code": 3,
-        "wave_height_m": 0.32,
-        "wave_period_s": 4.05
+        "air_temp_c": 18.1,
+        "wind_speed_kn": 1.6,
+        "wind_gust_kn": 2.9,
+        "wind_dir_deg": 150.0,
+        "weather_code": 2,
+        "wave_height_m": 0.46,
+        "wave_period_s": 4.85
       },
       "climate": {
         "anomaly_c": null,
@@ -293,20 +293,20 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-11-11T13:31:50Z",
+      "updated_at": "2026-11-12T00:01:12Z",
       "sst": {
         "value_c": 20.09,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 15.2,
-        "wind_speed_kn": 3.1,
-        "wind_gust_kn": 8.7,
-        "wind_dir_deg": 173.0,
+        "air_temp_c": 19.5,
+        "wind_speed_kn": 8.2,
+        "wind_gust_kn": 18.5,
+        "wind_dir_deg": 214.0,
         "weather_code": 2,
-        "wave_height_m": 0.4,
-        "wave_period_s": 4.8
+        "wave_height_m": 1.2,
+        "wave_period_s": 4.85
       },
       "climate": {
         "anomaly_c": null,
@@ -320,7 +320,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=19.5"
+          "message": "168h forecast, sst=19.4"
         },
         {
           "name": "cmems",
@@ -350,20 +350,20 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-11-11T13:31:52Z",
+      "updated_at": "2026-11-12T00:01:14Z",
       "sst": {
         "value_c": 20.8,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 15.6,
-        "wind_speed_kn": 6.7,
-        "wind_gust_kn": 30.1,
-        "wind_dir_deg": 229.0,
-        "weather_code": 95,
-        "wave_height_m": 1.24,
-        "wave_period_s": 4.55
+        "air_temp_c": 16.4,
+        "wind_speed_kn": 5.5,
+        "wind_gust_kn": 28.6,
+        "wind_dir_deg": 222.0,
+        "weather_code": 3,
+        "wave_height_m": 1.14,
+        "wave_period_s": 5.15
       },
       "climate": {
         "anomaly_c": null,
@@ -407,20 +407,20 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-11-11T13:31:54Z",
+      "updated_at": "2026-11-12T00:01:15Z",
       "sst": {
         "value_c": 20.36,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 17.0,
-        "wind_speed_kn": 4.1,
-        "wind_gust_kn": 7.8,
-        "wind_dir_deg": 115.0,
-        "weather_code": 95,
-        "wave_height_m": 0.66,
-        "wave_period_s": 4.6
+        "air_temp_c": 19.0,
+        "wind_speed_kn": 4.4,
+        "wind_gust_kn": 10.9,
+        "wind_dir_deg": 122.0,
+        "weather_code": 3,
+        "wave_height_m": 1.02,
+        "wave_period_s": 5.1
       },
       "climate": {
         "anomaly_c": null,
@@ -434,7 +434,7 @@
         {
           "name": "openmeteo",
           "ok": true,
-          "message": "168h forecast, sst=20.8"
+          "message": "168h forecast, sst=21.0"
         },
         {
           "name": "cmems",
@@ -464,20 +464,20 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-11-11T13:31:56Z",
+      "updated_at": "2026-11-12T00:01:18Z",
       "sst": {
         "value_c": 20.83,
         "source": "cmems",
         "time": "2026-11-11T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.0,
+        "air_temp_c": 20.1,
         "wind_speed_kn": 5.7,
-        "wind_gust_kn": 7.8,
-        "wind_dir_deg": 204.0,
+        "wind_gust_kn": 9.7,
+        "wind_dir_deg": 188.0,
         "weather_code": 3,
-        "wave_height_m": 1.08,
-        "wave_period_s": 4.35
+        "wave_height_m": 1.14,
+        "wave_period_s": 5.3
       },
       "climate": {
         "anomaly_c": null,
