@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:54:24Z",
+  "generated_at": "2026-11-13T23:17:42Z",
   "island_count": 9,
   "islands": [
     {
@@ -8,20 +8,20 @@
       "region": "aegean",
       "lat": 37.263,
       "lon": 23.158,
-      "updated_at": "2026-11-13T13:53:49Z",
+      "updated_at": "2026-11-13T23:13:34Z",
       "sst": {
         "value_c": 21.22,
         "source": "cmems",
         "time": "2026-11-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 20.2,
-        "wind_speed_kn": 10.9,
-        "wind_gust_kn": 19.4,
-        "wind_dir_deg": 183.0,
-        "weather_code": 3,
-        "wave_height_m": 0.98,
-        "wave_period_s": 4.15
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
       },
       "climate": {
         "anomaly_c": null,
@@ -34,8 +34,8 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=20.7"
+          "ok": false,
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.263&longitude=23.158&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)\"))"
         },
         {
           "name": "cmems",
@@ -65,20 +65,20 @@
       "region": "aegean",
       "lat": 37.15,
       "lon": 24.5,
-      "updated_at": "2026-11-13T13:54:08Z",
+      "updated_at": "2026-11-13T23:14:26Z",
       "sst": {
         "value_c": 20.08,
         "source": "cmems",
         "time": "2026-11-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 20.0,
-        "wind_speed_kn": 9.6,
-        "wind_gust_kn": 25.1,
-        "wind_dir_deg": 198.0,
-        "weather_code": 3,
-        "wave_height_m": 1.46,
-        "wave_period_s": 5.0
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
       },
       "climate": {
         "anomaly_c": null,
@@ -91,8 +91,8 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=19.0"
+          "ok": false,
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.15&longitude=24.5&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)\"))"
         },
         {
           "name": "cmems",
@@ -122,20 +122,20 @@
       "region": "aegean",
       "lat": 36.74,
       "lon": 24.43,
-      "updated_at": "2026-11-13T13:54:10Z",
+      "updated_at": "2026-11-13T23:15:00Z",
       "sst": {
         "value_c": 19.97,
         "source": "cmems",
         "time": "2026-11-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.7,
-        "wind_speed_kn": 7.4,
-        "wind_gust_kn": 16.9,
-        "wind_dir_deg": 186.0,
-        "weather_code": 3,
-        "wave_height_m": 1.16,
-        "wave_period_s": 5.0
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
       },
       "climate": {
         "anomaly_c": null,
@@ -148,8 +148,8 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=19.9"
+          "ok": false,
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=36.74&longitude=24.43&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)\"))"
         },
         {
           "name": "cmems",
@@ -179,20 +179,20 @@
       "region": "aegean",
       "lat": 36.3932,
       "lon": 25.4615,
-      "updated_at": "2026-11-13T13:54:12Z",
+      "updated_at": "2026-11-13T23:15:35Z",
       "sst": {
         "value_c": 20.43,
         "source": "cmems",
         "time": "2026-11-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.4,
-        "wind_speed_kn": 7.0,
-        "wind_gust_kn": 15.4,
-        "wind_dir_deg": 193.0,
-        "weather_code": 3,
-        "wave_height_m": 0.94,
-        "wave_period_s": 5.15
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
       },
       "climate": {
         "anomaly_c": null,
@@ -205,8 +205,8 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=20.3"
+          "ok": false,
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=36.3932&longitude=25.4615&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)\"))"
         },
         {
           "name": "cmems",
@@ -236,20 +236,20 @@
       "region": "aegean",
       "lat": 36.4349,
       "lon": 28.2176,
-      "updated_at": "2026-11-13T13:54:14Z",
+      "updated_at": "2026-11-13T23:16:10Z",
       "sst": {
         "value_c": 22.5,
         "source": "cmems",
         "time": "2026-11-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 19.6,
-        "wind_speed_kn": 8.4,
-        "wind_gust_kn": 13.8,
-        "wind_dir_deg": 165.0,
-        "weather_code": 3,
-        "wave_height_m": 0.42,
-        "wave_period_s": 5.0
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
       },
       "climate": {
         "anomaly_c": null,
@@ -262,8 +262,8 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=22.2"
+          "ok": false,
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=36.4349&longitude=28.2176&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)\"))"
         },
         {
           "name": "cmems",
@@ -293,20 +293,20 @@
       "region": "aegean",
       "lat": 37.0853,
       "lon": 25.1487,
-      "updated_at": "2026-11-13T13:54:16Z",
+      "updated_at": "2026-11-13T23:16:45Z",
       "sst": {
         "value_c": 20.19,
         "source": "cmems",
         "time": "2026-11-13T00:00:00Z"
       },
       "conditions": {
-        "air_temp_c": 20.2,
-        "wind_speed_kn": 6.8,
-        "wind_gust_kn": 15.4,
-        "wind_dir_deg": 182.0,
-        "weather_code": 3,
-        "wave_height_m": 0.94,
-        "wave_period_s": 4.6
+        "air_temp_c": null,
+        "wind_speed_kn": null,
+        "wind_gust_kn": null,
+        "wind_dir_deg": null,
+        "weather_code": null,
+        "wave_height_m": null,
+        "wave_period_s": null
       },
       "climate": {
         "anomaly_c": null,
@@ -319,8 +319,8 @@
       "sources": [
         {
           "name": "openmeteo",
-          "ok": true,
-          "message": "168h forecast, sst=19.3"
+          "ok": false,
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.0853&longitude=25.1487&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)\"))"
         },
         {
           "name": "cmems",
@@ -350,7 +350,7 @@
       "region": "ionian",
       "lat": 38.175,
       "lon": 20.565,
-      "updated_at": "2026-11-13T13:54:18Z",
+      "updated_at": "2026-11-13T23:17:19Z",
       "sst": {
         "value_c": 20.83,
         "source": "cmems",
@@ -407,7 +407,7 @@
       "region": "ionian",
       "lat": 39.6243,
       "lon": 19.9217,
-      "updated_at": "2026-11-13T13:54:20Z",
+      "updated_at": "2026-11-13T23:17:37Z",
       "sst": {
         "value_c": 20.01,
         "source": "cmems",
@@ -464,7 +464,7 @@
       "region": "ionian",
       "lat": 37.787,
       "lon": 20.899,
-      "updated_at": "2026-11-13T13:54:22Z",
+      "updated_at": "2026-11-13T23:17:39Z",
       "sst": {
         "value_c": 20.9,
         "source": "cmems",
@@ -520,7 +520,7 @@
     {
       "name": "openmeteo",
       "ok": true,
-      "message": "168h forecast, sst=20.7"
+      "message": "168h forecast, sst=21.6"
     },
     {
       "name": "cmems",
