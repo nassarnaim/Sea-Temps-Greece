@@ -4,7 +4,7 @@
   "region": "aegean",
   "lat": 37.15,
   "lon": 24.5,
-  "updated_at": "2026-11-14T21:58:12Z",
+  "updated_at": "2026-11-15T04:45:12Z",
   "sst": {
     "value_c": 19.75,
     "source": "cmems",
@@ -28,7 +28,7 @@
     {
       "source": "poseidon",
       "text": "POSEIDON Aegean Sea forecast available — see official bulletin.",
-      "time": "2026-11-14T21:58:45Z"
+      "time": "2026-11-15T04:45:46Z"
     }
   ],
   "climate": {
@@ -43,31 +43,31 @@
       "name": "openmeteo",
       "ok": false,
       "message": "ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.15&longitude=24.5&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cweather_code%2Cprecipitation&wind_speed_unit=kn&timezone=UTC&forecast_days=7 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)\"))",
-      "fetched_at": "2026-11-14T21:58:44Z"
+      "fetched_at": "2026-11-15T04:45:45Z"
     },
     {
       "name": "cmems",
       "ok": true,
       "message": "sst=19.75C from SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_a_V2",
-      "fetched_at": "2026-11-14T21:58:44Z"
+      "fetched_at": "2026-11-15T04:45:45Z"
     },
     {
       "name": "poseidon",
       "ok": true,
       "message": "Aegean forecast reachable",
-      "fetched_at": "2026-11-14T21:58:45Z"
+      "fetched_at": "2026-11-15T04:45:46Z"
     },
     {
       "name": "hnms",
       "ok": false,
       "message": "SSLError: HTTPSConnectionPool(host='emy.gr', port=443): Max retries exceeded with url: /en/marine (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))",
-      "fetched_at": "2026-11-14T21:58:45Z"
+      "fetched_at": "2026-11-15T04:45:47Z"
     },
     {
       "name": "ceamed",
       "ok": true,
       "message": "reference attached (no value parsed)",
-      "fetched_at": "2026-11-14T21:58:46Z"
+      "fetched_at": "2026-11-15T04:45:48Z"
     }
   ]
 }
